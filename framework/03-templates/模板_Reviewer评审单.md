@@ -1,0 +1,77 @@
+# 模板_Reviewer评审单
+
+## 使用说明
+
+- 由 Reviewer 在每轮稿件评审后填写。
+- 评审必须基于 `framework/04-checklists/质量检查清单.md` 与 Rulebook 分册。
+- 每条问题必须可定位、可复核、可执行。
+
+## Reviewer评审单
+
+```markdown
+# Reviewer评审单
+- 轮次：第___轮
+- 评审范围：第___章-第___章 / 设定版本___ / 大纲版本___
+- 评审时间：YYYY-MM-DD
+
+## A. 评审依据（必须填写）
+1. 检查清单：`framework/04-checklists/质量检查清单.md`
+2. 规则分册（列出本轮实际使用）：
+   - `framework/01-methods/rulebook/01.worldbuilding.md`
+   - `framework/01-methods/rulebook/02.character.md`
+   - `framework/01-methods/rulebook/03.plot.md`
+   - `framework/01-methods/rulebook/04.narrative.md`
+   - `framework/01-methods/rulebook/05.rhetoric.md`
+   - `framework/01-methods/rulebook/06.editing-review.md`
+
+## B. Rubric评分（5分制）
+- 规则一致性：
+- 角色驱动性：
+- 情节因果性：
+- 叙事有效性：
+- 语言可读性：
+- 综合评分：
+
+## C. 问题清单（必须可定位）
+### P0（阻塞发布）
+1. 问题：
+   - 位置：
+   - 违反规则：
+   - 影响：
+   - 修复建议：
+   - 证据来源：
+
+### P1（显著影响体验）
+1. 问题：
+   - 位置：
+   - 违反规则：
+   - 影响：
+   - 修复建议：
+   - 证据来源：
+
+### P2（优化项）
+1. 问题：
+   - 位置：
+   - 违反规则：
+   - 影响：
+   - 修复建议：
+   - 证据来源：
+
+## D. 联动风险提示
+- 是否触发联动更新：是/否
+- 触发原因：章节新增 / 大纲改动 / 设定改动
+- 建议同步更新项：
+  - 角色设定 / 世界观设定 / 阵营设定 / 日志 / 变更记录
+
+## E. 结论
+- 结论：通过 / 有条件通过 / 需重改
+- 必须完成项（进入下一轮前）：
+1. 
+2. 
+```
+
+## 证据来源写法（推荐）
+
+- `07-writing/chapters/第12章.md#第3节`
+- `03-foundation/世界观设定.md#能力代价`
+- `04-outline/分卷大纲.md#第一卷-小高潮`
