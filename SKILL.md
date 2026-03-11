@@ -103,7 +103,7 @@ description: 基于当前 framework 的虚构文学创作执行技能。可从�
 1. 创作总指南：`framework/references/methods/全方位虚构文学创作实操指南.md`
 2. 大师 Prompt：`framework/references/methods/master-of-story-writing.md`
 3. Guide 镜像：`framework/references/guide/00.index.md` 到 `framework/references/guide/10.shared-review-template.md`
-4. Workflow 详规：`framework/references/process/workflow.md`
+4. Workflow 历史镜像：`framework/references/process/workflow.md`
 
 ## 快速入口
 
