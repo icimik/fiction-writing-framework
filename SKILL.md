@@ -27,6 +27,7 @@ description: 基于当前 framework 的虚构文学创作执行技能。可从�
 - 可在不改变结构、因果、人物关系、章尾钩子的前提下，对整书做逐章中文化重表达。
 - 可识别并系统清理压缩名词式说法、罗列型断句、翻译腔比喻、解释腔、判词句、概念先行句、英语逻辑骨架残留等问题。
 - 可把整书级审读提要、逐章内容总结、批次精修、逐字句精修、终稿回读串成标准流程，而不是临时补救。
+- 可先建立项目级 `STYLEGUIDE.md`、角色级 `SOUL.md` 与短引用中文写作参考，再把它们用于后续生成、复核与定向重整。
 
 3. 终稿级多方评审与发布准备
 - 可在正文终稿阶段执行 Reviewer / Reader / Editor 的整书级联合审阅，而不只评单章。
@@ -91,6 +92,7 @@ description: 基于当前 framework 的虚构文学创作执行技能。可从�
 10. 治理机制：`framework/06-governance/项目治理与复盘机制.md`
 11. 更新机制：`framework/06-governance/框架更新机制.md`
 12. 变更记录：`framework/06-governance/框架变更记录.md`
+13. 现行规格：`framework/07-specifications/README.md`
 
 短篇集与导入融合重点入口：
 1. `framework/02-process/标准创作流程.md`
@@ -105,6 +107,14 @@ description: 基于当前 framework 的虚构文学创作执行技能。可从�
 3. Guide 镜像：`framework/references/guide/00.index.md` 到 `framework/references/guide/10.shared-review-template.md`
 4. Workflow 历史镜像：`framework/references/process/workflow.md`
 
+## 现行规格文档
+
+1. 规格总入口：`framework/07-specifications/README.md`
+2. 中文语言规格索引：`framework/07-specifications/language/00.index.md`
+3. 词汇规范：`framework/07-specifications/language/现代汉语_词汇规范.md`
+4. 语法规范：`framework/07-specifications/language/现代汉语_语法规范.md`
+5. 修辞规范：`framework/07-specifications/language/现代汉语_修辞规范.md`
+
 ## 快速入口
 
 创作者入口：
@@ -112,6 +122,7 @@ description: 基于当前 framework 的虚构文学创作执行技能。可从�
 2. `framework/02-process/项目结构模板.md`
 3. `framework/03-templates/文档模板集.md`
 4. `framework/04-checklists/质量检查清单.md`
+5. 若中文表达是硬约束，再读 `framework/07-specifications/language/00.index.md`
 
 Agent入口：
 1. `SKILL.md`
@@ -120,6 +131,7 @@ Agent入口：
 4. `framework/04-checklists/质量检查清单.md`
 5. `framework/02-process/项目结构模板.md`
 6. `framework/06-governance/框架更新机制.md`
+7. 若当前任务涉及中文表达基线，再读 `framework/07-specifications/language/00.index.md`
 
 ## 日志要求
 

@@ -4,6 +4,8 @@
 
 这些文档是参考层，不直接替代框架主文档，也不作为执行模板入口。
 
+若需要执行层直接引用的现行硬规格，请改查 `framework/07-specifications/`。
+
 ## 目录
 
 ### methods/
@@ -14,6 +16,13 @@
 ### process/
 
 - `workflow.md`
+
+### language/
+
+- `framework/references/language/README.md`
+- `framework/references/language/现代汉语笔记讲义_词汇提取_20260313.md`
+- `framework/references/language/现代汉语笔记讲义_语法提取_20260313.md`
+- `framework/references/language/现代汉语笔记讲义_修辞提取_20260313.md`
 
 ### guide/
 
