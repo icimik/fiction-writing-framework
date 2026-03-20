@@ -12,7 +12,7 @@
 - `framework/01-methods/playbook/05-stage4-plot-structure.md`：阶段4 情节与结构规划
 - `framework/01-methods/playbook/06-stage5-narrative-style.md`：阶段5 叙事视角与文笔打磨
 - `framework/01-methods/playbook/07-stage6-drafting.md`：阶段6 初稿写作流水线
-- `framework/01-methods/playbook/08-stage7-edit-review.md`：阶段7 编辑审阅与修改
+- `framework/01-methods/playbook/08-stage7-edit-review.md`：阶段7 整书审读、中文表达精修与中文重塑
 - `framework/01-methods/playbook/09-stage8-serialization.md`：阶段8 连载运营与续航
 - `framework/01-methods/playbook/10-final-summary.md`：终极核心总结
 
@@ -32,7 +32,8 @@
 - 阶段 4 反馈迭代：`08-stage7-edit-review.md`
 - 阶段 5 持续生产：`07-stage6-drafting.md`；若为连载，再补 `09-stage8-serialization.md`
 - 阶段 6 周期复盘：`09-stage8-serialization.md` + `10-final-summary.md`
-- 阶段 7 整书审读与中文表达精修：`06-stage5-narrative-style.md` + `08-stage7-edit-review.md`
+- 阶段 7 整书审读与中文表达精修：`08-stage7-edit-review.md`
+- 阶段 7b 中文重塑（条件触发）：`08-stage7-edit-review.md`
 - 阶段 8 终稿级多方评审与发布裁决：`08-stage7-edit-review.md` + `10-final-summary.md`
 - 阶段 9 发布准备 / 校样准备：`10-final-summary.md`
 - 阶段 10 结项复盘与框架反哺：`10-final-summary.md`
