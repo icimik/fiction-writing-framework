@@ -6,69 +6,31 @@ description: 基于当前 framework 的虚构文学创作执行技能。可从�
 # 虚构文学创作 Skill
 
 ## 适用范围
+
 - 从一句话设定启动新项目。
 - 生成或重写世界观、角色、分卷大纲、章节样稿。
 - 对已有稿件执行评审、改写与复盘。
 - 对已有项目与历史材料进行重组后续写。
-- 对短篇小说集、设定集、同世界观多地区/多时间线项目执行拆分、归档、统稿与反雷同修订。
-- 对外部导入的同世界观设定、短篇、长篇蓝图执行融合评估、重写归并与基线统一。
+- 对短篇小说集执行拆分、归档、统稿与反雷同修订。
+- 对外部导入的同世界观资产执行融合评估、重写归并与基线统一。
 - 对完整长篇执行整书审读、中文表达精修、终稿评审、发布准备与校样收口。
-
-## 已验证专题能力
-
-本技能已完成首个完整长篇闭环验证，验证项目为 `projects/the-last-straw`，最终发布名为《账单之下：美国底层生活实录》。该项目已跑通“立项 -> 设定 -> 分卷 -> 样章 -> 全书 -> 多轮精修 -> 整书终稿评审 -> 发布准备 -> 框架反哺”的全链路，因此以下能力不再只是设计目标，而是已被实际项目验证过的执行能力。
-
-1. 长篇完整闭环创作
-- 可从一句话设定起步，完成长篇项目的设定、分卷、章节生产、阶段复盘、整书评审与发布收口。
-- 可在不打断长篇推进节奏的前提下，切换“逐章闭环”“分卷闭环”“整书闭环”“终稿闭环”四种推进粒度。
-- 可在终稿阶段明确停改边界，避免正文进入无休止返工。
-
-2. 中文表达精修与去翻译腔
-- 可在不改变结构、因果、人物关系、章尾钩子的前提下，对整书做逐章中文化重表达。
-- 可识别并系统清理压缩名词式说法、罗列型断句、翻译腔比喻、解释腔、判词句、概念先行句、英语逻辑骨架残留等问题。
-- 可把整书级审读提要、逐章内容总结、重述法精修、分层精修、整书回读串成标准流程，而不是临时补救。若精修后仍有系统性翻译腔，可触发阶段 7b 中文重塑，从叙事任务重建文本。
-- 可先建立项目级 `STYLEGUIDE.md`、角色级 `SOUL.md` 与短引用中文写作参考，再把它们用于后续生成、复核与定向重整。
-
-3. 终稿级多方评审与发布准备
-- 可在正文终稿阶段执行 Reviewer / Reader / Editor 的整书级联合审阅，而不只评单章。
-- 可产出发布准备、平台页简介、分平台推广文案、章节推广文案、作者手记、后记与发布前最终核对单。
-- 可把发布资产的措辞、语气和正文终稿统一，避免发布文案退回概念化、宣传腔或翻译腔。
-
-4. 短篇小说集运营
-- 将历史样稿、已完稿短篇、设定文档整理为统一项目结构。
-- 按地区、时间线、阵营、角色、母题对短篇集做横向梳理。
-- 对整组短篇执行结构反雷同审阅，而不是只审单篇语病。
-
-5. 设定集与规则手册拆分
-- 从历史文档、样章与既有正文中反推世界观、角色、阵营、命名规则与时间线。
-- 将“创作约束”与“故事自由度”拆开，避免规则反向把角色命运模板化。
-
-6. 同世界观导入融合
-- 以 `99-archive/import-YYYYMMDD` 归档导入批次，保留追溯链。
-- 对导入内容执行“保留 / 改写 / 拆分吸收 / 仅归档”四类处理。
-- 在核心设定、时间线、命名规则一致的前提下，将外部创作空间的短篇与设定并入现行体系。
-
-7. 短篇审阅与改稿
-- 审阅单篇是否遵守核心设定、命名规则、地区语义与制度逻辑。
-- 审阅整组篇章在开篇方式、章节结构、信息释放方式上是否雷同。
-- 允许整章重写关键节点，以保持“主题统一、阅读差异显著”。
 
 ## 核心原则
 
 1. 先保结构，再修表达
-- 任何精修先确认“这一章要完成什么叙事任务”，再动句子。
+- 任何精修先确认"这一章要完成什么叙事任务"，再动句子。
 - 未经明确要求，不擅自改动结构、因果链、角色关系、时间顺序、信息释放顺序和章尾钩子。
 
 2. 过程资产必须沉淀
 - 每一轮创作、改稿、评审、发布收口，都要留下可追溯的文档资产。
-- 框架能力不是靠口头总结，而是靠项目层资产反向验证后再固化进框架。
+- 框架能力靠项目层资产反向验证后再固化进框架。
 
 3. 分阶段裁决，不无限返工
 - 样章期允许较大改动，分卷期允许结构性修补，终稿期以收口和统一为主。
 - 当问题已从正文级下降到校样级、发布口径级时，必须停止正文大修。
 
 4. 中文表达服从中文习惯
-- 不把“译得通”当成“写得像中文”。
+- 不把"译得通"当成"写得像中文"。
 - 不用概念化判断代替人物动作、物件、场景和口语。
 - 不追求句句漂亮，优先保证冷硬、具体、克制和可读。
 
@@ -87,14 +49,14 @@ LLM 的中文输出默认带有翻译腔，根源不是"不懂中文语法"，�
 以下模式在生成任何中文正文时必须主动规避：
 
 1. 压缩名词式主语：把"他的失业导致的经济压力使得……"拆回"他失业了，钱紧了，……"。中文信息承载单元是动词，不是名词短语。
-2. 抽象主语 + 使役动词：把"这种不确定性让他感到焦虑"改回"他不知道下个月怎么办"。"让他感到"是英语 "made him feel" 的直译。
-3. 连接词过密：一个句群内保留一个关键连接词。"尽管 A，但由于 B，因此 C"是英语复合句式的直接移植。
-4. 概念先行：小说先给场面和动作，结论由读者自己得出。"不仅仅是……更是……"是论文句式。
+2. 抽象主语 + 使役动词：把"这种不确定性让他感到焦虑"改回"他不知道下个月怎么办"。
+3. 连接词过密：一个句群内保留一个关键连接词。
+4. 概念先行：小说先给场面和动作，结论由读者自己得出。
 5. 情绪标签代替展示：不写"他感到复杂的情绪"，写他做了什么、碰了什么、停在哪里。
-6. 被动语态过频：中文被动句发生率远低于英语。"被……所……"句式大多数时候应换回主动或无主句。
-7. 前置修饰堆叠：名词前超过两层修饰立即拆句。中文定语短，补语和分句承担展开。
-8. 段尾情绪总结：段落不用"他感到前所未有的绝望"收尾。用物件、时间或未完成的动作收尾。
-9. 对白书面腔：日常对话中人不会说"我认为我们需要重新评估当前的财务状况"，会说"钱的事得说说了"。
+6. 被动语态过频：中文被动句发生率远低于英语。
+7. 前置修饰堆叠：名词前超过两层修饰立即拆句。
+8. 段尾情绪总结：用物件、时间或未完成的动作收尾。
+9. 对白书面腔：日常对话中人不会说"我认为我们需要重新评估当前的财务状况"。
 10. 段落结构雷同：连续三段以上使用相同的内部节奏时，强制打散。
 
 ### 生成时硬规则
@@ -107,132 +69,64 @@ LLM 的中文输出默认带有翻译腔，根源不是"不懂中文语法"，�
 
 ### 详细模式清单与示例
 
-见 `framework/07-specifications/language/中文生成约束.md`。
+见 `references/01-domain/language/中文生成约束.md`。
 
 该文档是生成时的操作手册，不是语言学参考。**生成任何中文正文前必须读。**
 
-## 目录分层
+## 文档结构
 
-- `framework/`：框架层（可执行规范 + 参考文档）。
-- `projects/`：项目层（统一目录运行）。
-- `archive/legacy/`：历史层（仅追溯）。
-
-## 框架主文档（执行规范）
-
-1. 方法总纲：`framework/01-methods/创作方法总纲.md`
-2. 方法库索引：`framework/01-methods/方法库索引.md`
-3. Rulebook 分册：`framework/01-methods/rulebook/00.index.md` 到 `framework/01-methods/rulebook/10.shared-review-template.md`
-4. Playbook 分册：`framework/01-methods/playbook/README.md`
-5. 标准流程：`framework/02-process/标准创作流程.md`
-6. 项目结构：`framework/02-process/项目结构模板.md`
-7. 文档模板：`framework/03-templates/文档模板集.md`
-8. 质量检查：`framework/04-checklists/质量检查清单.md`
-9. 复用规则：`framework/05-reusable-rules/可复用规则库.md`
-10. 治理机制：`framework/06-governance/项目治理与复盘机制.md`
-11. 更新机制：`framework/06-governance/框架更新机制.md`
-12. 变更记录：`framework/06-governance/框架变更记录.md`
-13. 现行规格：`framework/07-specifications/README.md`
-
-短篇集与导入融合重点入口：
-1. `framework/02-process/标准创作流程.md`
-2. `framework/02-process/项目结构模板.md`
-3. `framework/05-reusable-rules/可复用规则库.md`
-4. `framework/04-checklists/质量检查清单.md`
-
-## 参考文档（镜像与追溯）
-
-1. 创作总指南：`framework/references/methods/全方位虚构文学创作实操指南.md`
-2. 大师 Prompt：`framework/references/methods/master-of-story-writing.md`
-3. Guide 镜像：`framework/references/guide/00.index.md` 到 `framework/references/guide/10.shared-review-template.md`
-4. Workflow 历史镜像：`framework/references/process/workflow.md`
-
-## 现行规格文档
-
-1. 规格总入口：`framework/07-specifications/README.md`
-2. **中文生成约束（生成时必读）**：`framework/07-specifications/language/中文生成约束.md`
-3. 中文语言规格索引：`framework/07-specifications/language/00.index.md`
-4. 词汇规范：`framework/07-specifications/language/现代汉语_词汇规范.md`
-5. 语法规范：`framework/07-specifications/language/现代汉语_语法规范.md`
-6. 修辞规范：`framework/07-specifications/language/现代汉语_修辞规范.md`
+```
+references/
+  01-domain/                  领域知识（原则 + 规则 + 检查项，按主题自包含）
+    worldbuilding.md           世界观
+    character.md               角色
+    plot.md                    情节
+    narrative.md               叙事
+    rhetoric.md                修辞与文风
+    genre.md                   类型适配与连载策略
+    editing-review.md          审阅与改稿
+    reference-and-sources.md   参考文本与资料来源
+    language/                  中文语言规格
+      中文生成约束.md            生成时操作手册（最高优先级）
+      00.index.md              语言规格索引
+      现代汉语_词汇规范.md
+      现代汉语_语法规范.md
+      现代汉语_修辞规范.md
+  02-process/                  流程层
+    stages.md                  标准创作流程（唯一执行入口）
+    collaboration.md           多 Agent 操作流程
+    project-structure.md       项目结构模板
+  03-resources/                资源层
+    templates/                 文档模板集
+    checklists.md              质量检查清单
+    reusable-rules.md          可复用规则库
+  04-governance/               治理层
+    update-mechanism.md        框架更新机制
+    project-governance.md      项目治理与复盘机制
+    change-log.md              框架变更记录
+    market-research/           市场研究基线
+```
 
 ## 快速入口
 
 创作者入口：
-1. `framework/02-process/标准创作流程.md`
-2. `framework/02-process/项目结构模板.md`
-3. `framework/03-templates/文档模板集.md`
-4. `framework/04-checklists/质量检查清单.md`
-5. 若中文表达是硬约束，再读 `framework/07-specifications/language/00.index.md`
+1. `references/02-process/stages.md`
+2. `references/02-process/project-structure.md`
+3. `references/03-resources/templates/README.md`
+4. `references/03-resources/checklists.md`
+5. 若中文表达是硬约束，再读 `references/01-domain/language/00.index.md`
 
-Agent入口：
+Agent 入口：
 1. `SKILL.md`
-2. **`framework/07-specifications/language/中文生成约束.md`（涉及中文正文生成时必读，不可跳过）**
-3. `framework/01-methods/方法库索引.md`
-4. `framework/02-process/标准创作流程.md`
-5. `framework/04-checklists/质量检查清单.md`
-6. `framework/02-process/项目结构模板.md`
-7. `framework/06-governance/框架更新机制.md`
-8. 若需追溯中文语言学依据，查 `framework/07-specifications/language/00.index.md`
-
-## 日志要求
-
-每个关键动作必须可追溯：
-- 为什么做（设定原因/决策依据）
-- 做了什么（变更内容）
-- 完成到什么程度（完成度）
-- 有什么风险（未决问题）
-
-长篇项目补充要求：
-- 章节生产批次要记。
-- 正文精修批次要记。
-- 整书评审与终稿裁决要记。
-- 发布准备与校样收口要记。
-- 结项后的框架反哺也要记。
-
-## 多 Agent 角色
-
-1. Writer（创作 Agent）
-- 输出设定、大纲、章节草稿与改稿版本。
-
-2. Editor（编辑 Agent）
-- 审阅结构与叙事问题，汇总各方反馈，形成 Writer 可执行改稿清单。
-
-3. Reviewer（评审 Agent）
-- 按 Rubric 与检查清单执行规则化评审与问题定位。
-
-4. Reader（读者 Agent）
-- 以不同读者画像给出体验反馈（男频、女频、轻小说、现实向等）。
-- 在整书阶段补充“整书连读体验、章节间口径一致性、弃读风险位置、平台传播感知”。
-
-角色操作流程入口：
-- `framework/02-process/多Agent操作流程.md`
-  - 该文件是协作扩展说明；主流程仍以 `framework/02-process/标准创作流程.md` 为准。
-
-## 使用方式
-
-0. 若任务涉及中文正文生成、改写或精修，先读 `framework/07-specifications/language/中文生成约束.md`
-- 该文档是生成时操作手册，所有中文正文输出必须遵守其中的反模式清单和三阶段检查。
-- 不可用"事后精修会处理"为由跳过。
-
-1. 再读 `framework/02-process/标准创作流程.md`
-- 所有阶段动作、停改规则、终稿与发布流程，以该文件为准。
-
-2. 再读 `framework/04-checklists/质量检查清单.md`
-- 所有阶段验收、整书精修、终稿裁决、发布准备与框架反哺检查，以该清单为准。
-
-3. 按需调用 `framework/03-templates/文档模板集.md`
-- 单章、整书、终稿、发布准备均应优先使用模板，不临时口头约定格式。
-
-4. 涉及方法细节时查 `framework/01-methods/方法库索引.md`
-- `SKILL.md` 不再重复维护阶段细则。
-
-## 唯一执行入口
-1. `framework/02-process/标准创作流程.md`
-2. `framework/04-checklists/质量检查清单.md`
-3. `framework/03-templates/文档模板集.md`
-4. `framework/02-process/项目结构模板.md`
+2. **`references/01-domain/language/中文生成约束.md`（涉及中文正文生成时必读，不可跳过）**
+3. `references/02-process/stages.md`
+4. `references/03-resources/checklists.md`
+5. `references/02-process/project-structure.md`
+6. `references/04-governance/update-mechanism.md`
+7. 若需追溯中文语言学依据，查 `references/01-domain/language/00.index.md`
 
 ## 输入契约
+
 必填字段：
 1. 类型与题材
 2. 目标体量（字数或章数）
@@ -244,20 +138,14 @@ Agent入口：
 1. 平台与更新节奏
 2. 风格边界与禁用项
 
-目录约束补充：
-- 原始 idea、设定原稿与外部输入保留在 `00-intake/`
-- `立项简报.md` 统一落在 `01-brief/`
-- `02-research/` 只存原始调研材料
-- `06-analysis-research/` 只存已裁决的分析结论
-
 一句话启动缺省策略：
-- 未给创作目标：默认“新建”。
-- 未给类型与题材：按关键词自动归类，无法判定则默认“都市异能”。
-- 未给目标读者：默认“18-35 岁网文读者，偏剧情驱动”。
-- 平台：默认“待定（按通用创作标准输出，可后置适配）”。
-- 更新节奏：默认“每周 3 更”。
-- 目标体量：默认“长篇，预计 120 章”。
-- 禁用项：默认“无现实敏感映射、无超出设定边界的能力跳变”。
+- 未给创作目标：默认"新建"。
+- 未给类型与题材：按关键词自动归类，无法判定则默认"都市异能"。
+- 未给目标读者：默认"18-35 岁网文读者，偏剧情驱动"。
+- 平台：默认"待定（按通用创作标准输出，可后置适配）"。
+- 更新节奏：默认"每周 3 更"。
+- 目标体量：默认"长篇，预计 120 章"。
+- 禁用项：默认"无现实敏感映射、无超出设定边界的能力跳变"。
 
 ## 执行摘要
 
@@ -283,26 +171,67 @@ Agent入口：
 4. Editor 汇总、下发改稿指令并做阶段裁决
 5. Writer 改稿并完成联动更新
 
+## 多 Agent 角色
+
+1. Writer（创作 Agent）：输出设定、大纲、章节草稿与改稿版本。
+2. Editor（编辑 Agent）：审阅结构与叙事问题，汇总各方反馈，形成改稿清单。
+3. Reviewer（评审 Agent）：按 Rubric 与检查清单执行规则化评审与问题定位。
+4. Reader（读者 Agent）：以不同读者画像给出体验反馈。整书阶段补充连读体验、口径一致性、弃读风险位置。
+
+角色操作流程入口：`references/02-process/collaboration.md`
+
 ## 入口级硬约束
-- 生成任何中文正文前，必须已读 `framework/07-specifications/language/中文生成约束.md`，并在生成过程中执行其三阶段检查（生成前、生成中、生成后）。- 单次只变更一个对象；整书精修和发布准备时，对象粒度分别升级为“章节对象”或“整书/发布资产包对象”。
+
+- 生成任何中文正文前，必须已读 `references/01-domain/language/中文生成约束.md`，并在生成过程中执行其三阶段检查。
+- 单次只变更一个对象；整书精修和发布准备时，对象粒度分别升级为"章节对象"或"整书/发布资产包对象"。
 - 任何正文改写必须整章重写或按整章回读，不做局部查找替换式修补。
 - 用户要求逐字逐句精修时，只改表达，不改结构、因果、人物关系与章尾钩子。
 - 不创建 `.bak`、`_old` 等正文副本。
 - 改动后必须同步更新日志、变更记录，以及被触发的设定、评审、发布资产。
 - 当问题已下降到校样、措辞、发布口径层，必须停止正文大修，转入发布收口。
 
+## 使用方式
+
+0. 若任务涉及中文正文生成、改写或精修，先读 `references/01-domain/language/中文生成约束.md`。不可用"事后精修会处理"为由跳过。
+1. 再读 `references/02-process/stages.md`。所有阶段动作、停改规则、终稿与发布流程以该文件为准。
+2. 再读 `references/03-resources/checklists.md`。所有阶段验收以该清单为准。
+3. 按需调用 `references/03-resources/templates/README.md`。
+4. 涉及方法细节时查 `references/01-domain/` 对应分册。
+
+## 唯一执行入口
+
+1. `references/02-process/stages.md`
+2. `references/03-resources/checklists.md`
+3. `references/03-resources/templates/README.md`
+4. `references/02-process/project-structure.md`
+
+## 日志要求
+
+每个关键动作必须可追溯：
+- 为什么做（设定原因/决策依据）
+- 做了什么（变更内容）
+- 完成到什么程度（完成度）
+- 有什么风险（未决问题）
+
+长篇项目补充要求：
+- 章节生产批次要记。
+- 正文精修批次要记。
+- 整书评审与终稿裁决要记。
+- 发布准备与校样收口要记。
+- 结项后的框架反哺也要记。
+
 ## 推荐模板入口
 
-1. `framework/03-templates/模板_Reviewer评审单.md`
-2. `framework/03-templates/模板_Editor汇总与改稿指令.md`
-3. `framework/03-templates/模板_联动更新清单.md`
-4. `framework/03-templates/模板_整书中文表达审读提要.md`
-5. `framework/03-templates/模板_发布前最终核对单.md`
+1. `references/03-resources/templates/模板_Reviewer评审单.md`
+2. `references/03-resources/templates/模板_Editor汇总与改稿指令.md`
+3. `references/03-resources/templates/模板_联动更新清单.md`
+4. `references/03-resources/templates/模板_整书中文表达审读提要.md`
+5. `references/03-resources/templates/模板_发布前最终核对单.md`
 
 ## 输出约束
 
 - 输出必须为中文。
 - 每次输出至少交代：输入摘要、当前阶段、产出清单、下一步动作。
-- Editor 输出必须保持“三段式”：汇总反馈 -> 改稿指令 -> 验收结论。
+- Editor 输出必须保持"三段式"：汇总反馈 → 改稿指令 → 验收结论。
 - 关键结论必须能追溯到 Reviewer / Reader / 日志 / 变更记录等来源。
-- 若框架在项目中被新问题逼出新规则，结项时必须回写框架层文档，而不是只写项目复盘。
+- 若框架在项目中被新问题逼出新规则，结项时必须回写框架层文档。

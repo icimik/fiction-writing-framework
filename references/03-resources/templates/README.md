@@ -1,0 +1,152 @@
+# 文档模板集
+
+说明：本文件提供框架内最小模板集合。执行时只使用 `references/03-resources/templates/` 与流程主文档中的正式模板；`framework/references/` 仅用于历史追溯与扩展阅读，不作为执行模板入口。
+
+## 模板使用顺序
+
+1. 先填立项简报与世界观模板。
+2. 再创建项目根目录 `README.md`，写清当前项目入口、当前阶段和下一步动作。
+3. 长篇、连载、多 POV 或强风格约束项目，先查 `references/01-domain/language/00.index.md`，再补 `STYLEGUIDE.md`、主要角色 `SOUL.md` 和项目写作语言参考。
+这三类文档必须先从设定、角色弧线、分卷结构、题材与形式推导，不从现有正文反推。
+4. 再填角色与分卷模板。
+5. 若为短篇小说集，先补短篇矩阵，再做单篇大纲。
+6. 若存在外部同世界观资产，先做导入融合评估，再决定是否转正。
+7. 生成前三章后，先完成 Reviewer + Reader + Editor 三方审阅，再填写样章评审单。
+8. 样章采纳后，按“直接转正 / 改写转正并归档”规则处理样章与样章审阅资产。
+9. 进入连载或批量改稿后固定使用日志、反馈、复盘模板。
+10. 整书完成后，先做整书中文表达审读提要，再进入终稿评审与发布准备模板。
+
+## 1. 立项简报模板
+
+```markdown
+# 立项简报
+
+- 项目名：
+- 类型/题材：
+- 目标读者：
+- 平台：
+- 预计体量：
+- 更新节奏：
+- 核心卖点：
+- 核心前提句：
+- 风格约束：
+- 禁用项：
+```
+
+## 2. 世界观模板
+
+```markdown
+# 世界观设定
+
+## 核心概念
+## 历史背景
+## 势力结构
+## 能力体系与代价
+## 社会运行机制
+## 核心冲突
+## 时间轴
+## 开放问题
+
+## 设定边界与禁用项
+```
+
+## 3. 角色模板
+
+```markdown
+# 角色设定
+
+- 姓名：
+- 阵营：
+- 外在目标：
+- 内在需求：
+- 创伤与谎言：
+- 关键关系：
+- 成长弧线：
+- 风险点（OOC 触发条件）：
+- 关键行为底线：
+- 反转触发条件：
+```
+
+## 4. 分卷大纲模板
+
+```markdown
+# 分卷大纲
+
+## 第一卷
+- 卷目标：
+- 核心冲突：
+- 小高潮：
+- 灵魂黑夜：
+- 卷末钩子：
+
+## 第二卷
+...
+
+## 伏笔台账
+- 埋设点：
+- 计划回收章：
+- 回收状态：
+```
+
+## 5. 样章评审模板
+
+请使用：`references/03-resources/templates/模板_样章评审单.md`
+
+## 5.1 风格与角色约束模板
+
+1. 项目级风格总纲：`references/03-resources/templates/模板_STYLEGUIDE.md`
+2. 角色灵魂档案：`references/03-resources/templates/模板_SOUL.md`
+3. 项目写作语言参考：`references/03-resources/templates/模板_项目写作语言参考.md`
+4. 中文语言规格入口：`references/01-domain/language/00.index.md`
+
+## 5.2 项目 README 模板
+
+请使用：`references/03-resources/templates/模板_项目README.md`
+
+## 6. 工作日志模板
+
+请使用：`references/03-resources/templates/模板_工作日志.md`
+
+## 7. 复盘模板
+
+请使用：`references/03-resources/templates/模板_复盘报告.md`
+
+## 8. 反馈汇总模板（入口）
+
+请使用：`references/03-resources/templates/模板_反馈汇总.md`
+
+## 9. 变更记录模板（入口）
+
+请使用：`references/03-resources/templates/模板_变更记录.md`
+
+## 10. 专项模板参考
+
+1. 共享评审模板：`references/03-resources/templates/模板_共享审阅块.md`
+2. 共享评审规范：`references/03-resources/templates/模板_共享审阅块.md`
+3. `framework/references/` 仅作历史追溯与扩展阅读，不作为执行模板入口
+
+## 11. 方法模板（已集中迁移）
+
+1. 共享审阅块模板：`references/03-resources/templates/模板_共享审阅块.md`
+2. 情节规划模板（卷纲/单章/应急/自检）：`references/03-resources/templates/模板_情节规划.md`
+3. 编辑修订与投稿检查模板：`references/03-resources/templates/模板_编辑修订与投稿检查.md`
+
+## 12. 多Agent协作模板
+
+1. 样章评审单模板：`references/03-resources/templates/模板_样章评审单.md`
+2. Reader读者角色卡模板：`references/03-resources/templates/模板_Reader读者角色卡.md`
+3. 改动联动更新清单：`references/03-resources/templates/模板_联动更新清单.md`
+4. Editor汇总与改稿指令模板：`references/03-resources/templates/模板_Editor汇总与改稿指令.md`
+5. Reviewer评审单模板：`references/03-resources/templates/模板_Reviewer评审单.md`
+
+## 13. 长篇终稿与发布模板
+
+1. 整书中文表达审读提要：`references/03-resources/templates/模板_整书中文表达审读提要.md`
+2. 发布前最终核对单：`references/03-resources/templates/模板_发布前最终核对单.md`
+3. 发布前最终核验：`references/03-resources/templates/模板_发布前最终核验.md`
+
+## 14. 短篇集与导入融合专项模板
+
+1. 导入资产融合评估：`references/03-resources/templates/模板_导入资产融合评估.md`
+2. 短篇矩阵：`references/03-resources/templates/模板_短篇矩阵.md`
+3. 篇章反雷同审阅单：`references/03-resources/templates/模板_篇章反雷同审阅单.md`
