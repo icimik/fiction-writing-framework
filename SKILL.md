@@ -131,7 +131,8 @@ Agent 入口：
 4. `references/03-resources/checklists.md`
 5. `references/02-process/project-structure.md`
 6. `references/04-governance/update-mechanism.md`
-7. 若需追溯中文语言学依据，查 `references/01-domain/language/00.index.md`
+7. 若需做发布前或阶段性体量核验，运行 `scripts/count_manuscript_words.py`
+8. 若需追溯中文语言学依据，查 `references/01-domain/language/00.index.md`
 
 ## 输入契约
 
@@ -205,6 +206,7 @@ Agent 入口：
 2. 再读 `references/03-resources/checklists.md`。所有阶段验收以该清单为准。
 3. 按需调用 `references/03-resources/templates/README.md`。
 4. 涉及方法细节时查 `references/01-domain/` 对应分册。
+5. 若需统计作品正文字数，优先运行 `scripts/count_manuscript_words.py <项目目录>`；默认统计 `07-writing/chapters/`，按“每个中文字符算 1 字、每个英文单词算 1 字、标点不计”输出总字数与分文件明细。
 
 ## 唯一执行入口
 
