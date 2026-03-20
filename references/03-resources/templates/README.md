@@ -1,6 +1,6 @@
 # 文档模板集
 
-说明：本文件提供框架内最小模板集合。执行时只使用 `references/03-resources/templates/` 与流程主文档中的正式模板；`framework/references/` 仅用于历史追溯与扩展阅读，不作为执行模板入口。
+说明：本文件提供框架内最小模板集合。执行时只使用 `references/03-resources/templates/` 与流程主文档中的正式模板；`references/99-archive/` 仅用于历史追溯与扩展阅读，不作为执行模板入口。
 
 ## 模板使用顺序
 
@@ -123,7 +123,7 @@
 
 1. 共享评审模板：`references/03-resources/templates/模板_共享审阅块.md`
 2. 共享评审规范：`references/03-resources/templates/模板_共享审阅块.md`
-3. `framework/references/` 仅作历史追溯与扩展阅读，不作为执行模板入口
+3. `references/99-archive/` 仅作历史追溯与扩展阅读，不作为执行模板入口
 
 ## 11. 方法模板（已集中迁移）
 

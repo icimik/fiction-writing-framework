@@ -95,6 +95,6 @@
 每条关键结论至少引用 1 个来源；P0 项至少引用 2 个来源（Reviewer + Reader 各至少 1 条）。
 
 推荐写法：
-- `framework/08-operations/feedback/Reader反馈_第12章_角色A.md#“节奏评价”`
+- `08-operations/feedback/Reader反馈_第12章_角色A.md#“节奏评价”`
 - `11-quality/章节质检_第12章.md#“情节一致性”`
-- `framework/08-operations/change-log/变更记录_20260310.md#“第12章改动”`
+- `08-operations/change-log/变更记录_20260310.md#“第12章改动”`
