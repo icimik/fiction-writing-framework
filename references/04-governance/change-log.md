@@ -5,6 +5,29 @@
 
 ## 记录条目
 
+### FW-20260326-01
+- 日期：2026-03-26
+- 状态：已生效
+- 类型：工具/发布
+- 变更摘要：新增通用出版构建器 `scripts/build_publication_with_pandoc.py`，并配套沉淀默认 Pandoc / Vivliostyle 样式与示例配置，作为框架级 `epub / html / pdf` 发布入口。
+- 触发原因：`deepsky-era` 项目已验证出稳定的 Pandoc + Vivliostyle 构建链，但原脚本硬编码在项目内，只适配分卷结构；`the-last-straw` 采用平铺章节结构，若继续复制项目脚本，会形成维护分叉。
+- 影响文档：
+  - `SKILL.md`
+  - `scripts/build_publication_with_pandoc.py`
+  - `assets/pandoc-book.css`
+  - `assets/vivliostyle-book.css`
+  - `assets/publication-build.sample.json`
+- 迁移动作：
+  - 将已验证的发布构建链抽取为 skill 级通用脚本
+  - 支持平铺章节与分卷目录两种正文组织方式
+  - 保留 `print html + Vivliostyle` 的 PDF 双轨构建
+  - 增补“只抽取后记正文”逻辑，避免项目过程元信息被拼入出版稿
+  - 补齐统一默认样式与 JSON 配置样例
+- 校验结果：
+  - 已在 `projects/the-last-straw` 上接入项目配置并完成真实构建验证
+- 风险与后续动作：
+  - 当前配置层采用 JSON 以避免额外依赖；若未来需要更复杂的出版元数据，应在通用脚本上扩展字段，而不是回退为项目内硬编码。
+
 ### FW-20260320-03
 - 日期：2026-03-20
 - 状态：已生效

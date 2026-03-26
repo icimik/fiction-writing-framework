@@ -1,0 +1,13 @@
+{
+  "title": "作品标题",
+  "author": "作者名",
+  "language": "zh-CN",
+  "output_date": "20260326",
+  "chapters_root": "07-writing/chapters",
+  "chapter_mode": "auto",
+  "volume_order": [],
+  "afterword_path": "10-publication/后记_20260326.md",
+  "cover_image": "09-assets/cover.png",
+  "build_dir": "10-publication/build",
+  "toc_title": "目录"
+}

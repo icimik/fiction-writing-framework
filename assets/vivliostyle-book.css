@@ -1,0 +1,144 @@
+@page {
+  size: A5;
+  margin: 18mm 16mm 20mm 16mm;
+}
+
+@page cover {
+  size: A5;
+  margin: 0;
+}
+
+html {
+  font-family: "Songti SC", "Songti TC", "STSong", serif;
+  font-size: 11pt;
+  line-height: 1.8;
+  color: #111;
+}
+
+body {
+  margin: 0;
+}
+
+.cover-page {
+  page: cover;
+  break-after: page;
+  height: 100vh;
+}
+
+.cover-page img {
+  display: block;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+header#title-block-header {
+  break-after: page;
+  text-align: center;
+  padding: 72mm 0 0;
+}
+
+header#title-block-header .title {
+  font-size: 24pt;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  margin: 0 0 14mm;
+}
+
+header#title-block-header .author {
+  font-size: 12pt;
+  margin: 0;
+}
+
+nav#TOC {
+  break-after: page;
+  padding-top: 6mm;
+}
+
+nav#TOC h2 {
+  font-size: 16pt;
+  text-align: center;
+  margin: 0 0 8mm;
+  letter-spacing: 0.08em;
+}
+
+nav#TOC ul,
+nav#TOC ol {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+nav#TOC li {
+  margin: 0;
+}
+
+nav#TOC > ul > li {
+  margin: 0 0 0.95em;
+  line-height: 1em;
+}
+
+nav#TOC > ul > li > a {
+  display: block;
+  text-align: center;
+  font-size: 14pt;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+nav#TOC > ul > li > ul {
+  margin-top: 0.45em;
+}
+
+nav#TOC > ul > li > ul > li {
+  margin: 0 0 0.4em;
+  line-height: 1em;
+}
+
+nav#TOC > ul > li > ul > li > a {
+  display: block;
+  font-size: 9.5pt;
+  font-weight: 400;
+  text-align: left;
+  padding-left: 2.6em;
+  text-indent: -2.6em;
+}
+
+nav#TOC a {
+  color: #111;
+  text-decoration: none;
+}
+
+section.level1 > h1 {
+  break-before: page;
+  font-size: 19pt;
+  font-weight: 600;
+  text-align: center;
+  margin: 0 0 12mm;
+}
+
+section.level2 > h2 {
+  break-before: page;
+  font-size: 15pt;
+  font-weight: 600;
+  text-align: center;
+  margin: 0 0 10mm;
+}
+
+p {
+  margin: 0 0 0.75em;
+  text-indent: 2em;
+  widows: 2;
+  orphans: 2;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #999;
+  width: 28%;
+  margin: 2em auto;
+}
+
+img {
+  max-width: 100%;
+}
