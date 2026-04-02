@@ -1,6 +1,9 @@
 ---
 name: fiction-writing-framework
 description: 基于当前 framework 的虚构文学创作执行技能。可从一句话设定启动，完成设定、大纲、样章、评审与迭代闭环。
+metadata: 
+  version: 1.5
+  author: Kimmy Liu (@kenpusney)
 ---
 
 # 虚构文学创作 Skill
