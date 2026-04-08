@@ -76,11 +76,11 @@ def iter_text_files(roots: list[pathlib.Path], extensions: set[str]) -> list[pat
     files: list[pathlib.Path] = []
     for root in roots:
         if root.is_file():
-            if root.suffix.lower() in extensions:
+            if root.suffix.lower() in extensions and root.name != "README.md":
                 files.append(root)
             continue
         for path in sorted(root.rglob("*")):
-            if path.is_file() and path.suffix.lower() in extensions:
+            if path.is_file() and path.suffix.lower() in extensions and path.name != "README.md":
                 files.append(path)
     return sorted(files, key=natural_sort_key)
 
