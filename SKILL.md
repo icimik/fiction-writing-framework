@@ -146,6 +146,7 @@ references/
     templates/                 文档模板集
     checklists.md              质量检查清单
     reusable-rules.md          可复用规则库
+    intimacy-levels.md         亲密内容分级与检查入口
   04-governance/               治理层
     update-mechanism.md        框架更新机制
     project-governance.md      项目治理与复盘机制
@@ -160,8 +161,9 @@ references/
 2. `references/02-process/project-structure.md`
 3. `references/03-resources/templates/README.md`
 4. `references/03-resources/checklists.md`
-5. 若涉及结构选型与结构实施，先读 `references/01-domain/structure-toolbox.md`
-6. 若中文表达是硬约束，再读 `references/01-domain/language/00.index.md`
+5. 若涉及亲密内容，先读 `references/03-resources/intimacy-levels.md`
+6. 若涉及结构选型与结构实施，先读 `references/01-domain/structure-toolbox.md`
+7. 若中文表达是硬约束，再读 `references/01-domain/language/00.index.md`
 
 Agent 入口：
 1. `SKILL.md`
@@ -170,9 +172,10 @@ Agent 入口：
 4. `references/03-resources/checklists.md`
 5. `references/02-process/project-structure.md`
 6. `references/04-governance/update-mechanism.md`
-7. 若需做发布前或阶段性体量核验，运行 `scripts/count_manuscript_words.py`
-8. 若需追溯中文语言学依据，查 `references/01-domain/language/00.index.md`
-9. 若需生成 `epub / html / pdf` 出版文件，运行 `scripts/build_publication_with_pandoc.py --project-root <项目目录> --config <构建配置.json>`；默认样式与示例配置见 `assets/`
+7. 若涉及亲密内容，先读 `references/03-resources/intimacy-levels.md`
+8. 若需做发布前或阶段性体量核验，运行 `scripts/count_manuscript_words.py`
+9. 若需追溯中文语言学依据，查 `references/01-domain/language/00.index.md`
+10. 若需生成 `epub / html / pdf` 出版文件，运行 `scripts/build_publication_with_pandoc.py --project-root <项目目录> --config <构建配置.json>`；默认样式与示例配置见 `assets/`
 
 ## 输入契约
 
@@ -244,10 +247,11 @@ Agent 入口：
 0. 若任务涉及中文正文生成、改写或精修，先读 `references/01-domain/language/中文生成约束.md`。不可用"事后精修会处理"为由跳过。
 1. 再读 `references/02-process/stages.md`。所有阶段动作、停改规则、终稿与发布流程以该文件为准。
 2. 再读 `references/03-resources/checklists.md`。所有阶段验收以该清单为准。
-3. 按需调用 `references/03-resources/templates/README.md`。
-4. 涉及方法细节时查 `references/01-domain/` 对应分册。
-5. 若需统计作品正文字数，优先运行 `scripts/count_manuscript_words.py <项目目录>`；默认统计 `07-writing/chapters/`，按“每个中文字符算 1 字、每个英文单词算 1 字、标点不计”输出总字数与分文件明细。
-6. 若需构建发布产物，优先运行 `scripts/build_publication_with_pandoc.py --project-root <项目目录> --config <构建配置.json>`；脚本支持平铺章节与分卷目录两种正文结构，默认输出 `epub / html / print html / pdf`。
+3. 若涉及亲密内容，先读 `references/03-resources/intimacy-levels.md`，再判断使用 L0-L5 的哪个层级。
+4. 按需调用 `references/03-resources/templates/README.md`。
+5. 涉及方法细节时查 `references/01-domain/` 对应分册。
+6. 若需统计作品正文字数，优先运行 `scripts/count_manuscript_words.py <项目目录>`；默认统计 `07-writing/chapters/`，按“每个中文字符算 1 字、每个英文单词算 1 字、标点不计”输出总字数与分文件明细。
+7. 若需构建发布产物，优先运行 `scripts/build_publication_with_pandoc.py --project-root <项目目录> --config <构建配置.json>`；脚本支持平铺章节与分卷目录两种正文结构，默认输出 `epub / html / print html / pdf`。
 
 ## 唯一执行入口
 
