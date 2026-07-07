@@ -27,7 +27,7 @@
 - 交接给 Editor。
 
 3. Reader（读者反馈）
-- 输入：Writer 当轮稿件、`fiction-review 的 references/模板_Reader读者角色卡.md`。
+- 输入：Writer 当轮稿件、`templates` 的 references/审阅/模板_Reader读者角色卡.md。
 - 输出：读者体验反馈单（爽点、拖沓点、代入感、弃读风险、推荐改动）。
 - 交接给 Editor。
 
@@ -141,6 +141,6 @@
 - 需要时更新 `11-quality/` 与 `10-publication/` 对应资产
 
 验收标准：
-- Editor 对照 `fiction-create 的 references/模板_联动更新清单.md` 勾检通过。
+- Editor 对照 `templates` 的 references/运营/模板_联动更新清单.md 勾检通过。
 - 任一同步项缺失，判定“需重改”，不得进入下一轮。
 - 任一编码异常、字数/格式不达标，判定“需重改”。

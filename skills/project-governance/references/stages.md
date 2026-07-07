@@ -13,7 +13,7 @@
 协作扩展：见 `project-governance` 的 references/collaboration.md。
 
 执行硬规则：
-- 生成任何中文正文前，必须已读 `chinese-writing-constraints` 的 references/language/中文生成约束.md，并执行三阶段检查。
+- 生成任何中文正文前，必须已读 `chinese-writing-constraints` 的 references/anti-patterns.md 和 references/checking-process.md，并执行三阶段检查。
 - 单次只允许变更一个对象：章节 / 大纲 / 设定（三选一）。
 - 单章节改写必须整章重写，不得以查找替换或末尾追加代替。
 - 禁止创建 `.bak` 或同类正文副本。
@@ -50,7 +50,7 @@
 
 1. 领域分册：`narrative-knowledge` 的 references/
 2. 项目结构模板：`project-governance` 的 references/project-structure.md
-3. 文档模板集：`fiction-create` 的 references/templates-README.md
+3. 文档模板集：`templates` 的 references/
 4. 多 Agent 操作流程：`project-governance` 的 references/collaboration.md
 5. 质量检查清单：`review-rubric` 的 references/checklists.md
-6. 中文生成约束：`chinese-writing-constraints` 的 references/language/中文生成约束.md
+6. 中文生成约束：`chinese-writing-constraints` 的 references/anti-patterns.md 和 references/checking-process.md

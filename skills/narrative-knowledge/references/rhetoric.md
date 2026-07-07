@@ -10,7 +10,7 @@
 
 ## 中文表达约束
 
-无翻译腔残留——压缩名词式主语、英语使役句式、概念先行句、情绪标签代替展示。详细反模式清单与三阶段检查见 `chinese-writing-constraints 的 references/language/中文生成约束.md`。
+无翻译腔残留——压缩名词式主语、英语使役句式、概念先行句、情绪标签代替展示。详细反模式清单与三阶段检查见 `chinese-writing-constraints` 的 references/anti-patterns.md 和 references/checking-process.md。
 
 ## 产出要求
 

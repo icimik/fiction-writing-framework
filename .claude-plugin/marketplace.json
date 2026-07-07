@@ -1,0 +1,12 @@
+{
+  "name": "fiction-writing-framework",
+  "owner": {
+    "name": "Kimmy Liu"
+  },
+  "plugins": [
+    {
+      "name": "fiction-writing-framework",
+      "source": "./"
+    }
+  ]
+}

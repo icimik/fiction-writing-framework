@@ -2,6 +2,23 @@
 
 各阶段的输入、输出、执行要点与必用分册。运行契约与执行链见 `stages.md`。
 
+## 阶段间质量门控
+
+阶段切换必须满足以下门控条件，不可跳过：
+
+| 从 → 到 | 门控条件 |
+|---------|---------|
+| 阶段 0 → 阶段 1 | 立项简报已完成；类型、读者、体量、运行模式已明确 |
+| 阶段 1 → 阶段 2 | 世界观设定、角色设定、创作规则手册已落盘；长篇已建 `STYLEGUIDE.md`；≥3 角色已建 `SOUL.md` |
+| 阶段 2 → 阶段 3 | 分卷大纲、前三章节拍已落盘；结构选型已固定；伏笔台账已建立 |
+| 阶段 3 → 阶段 4 | 样章三方审阅已通过；样章已转正或归档 |
+| 阶段 4 → 阶段 5 | 反馈已分类归档；P0/P1 已处理；改稿指令已执行 |
+| 阶段 5 → 阶段 6 | 当前批次章节已完成；工作日志已更新 |
+| 阶段 6 → 阶段 7 | 复盘结论已归档；全书结构已稳定 |
+| 阶段 7 → 阶段 8 | 整书精修完成；翻译腔反模式残留 ≤ 阈值 |
+| 阶段 8 → 阶段 9 | 终稿评审不存在 P0/P1；Editor 裁决"通过"或"停止正文大修" |
+| 阶段 9 → 阶段 10 | 发布资产已构建；发布前核验已通过 |
+
 ## 阶段 0：立项输入
 
 输入：idea 或基础设定文档。
@@ -23,7 +40,7 @@
 输入：外部导入文档、正文、设定、蓝图、时间线说明。
 输出：`06-analysis-research/导入资产融合评估_*.md`、变更记录、工作日志。
 
-建议模板：`fiction-import` 的 references/模板_导入资产融合评估.md
+建议模板：`templates` 的 references/导入/模板_导入资产融合评估.md
 
 执行步骤：
 1. 批次归档导入源到 `99-archive/import-YYYYMMDD/`，禁止直接放进正式目录
@@ -66,7 +83,7 @@
 
 执行要点：
 - 前三章必须完成：世界观入口、主角动机、首个冲突闭环
-- 生成前必读：`chinese-writing-constraints` 的 references/language/中文生成约束.md、项目 STYLEGUIDE / SOUL
+- 生成前必读：`chinese-writing-constraints` 的 references/anti-patterns.md 和 references/checking-process.md、项目 STYLEGUIDE / SOUL
 - 样章被采纳时二选一：直接转正或改写转正（原稿归档）
 
 → 必用分册：`narrative-knowledge` 的 references/rhetoric.md、editing-review.md
@@ -91,7 +108,7 @@
 - 每 5-10 章检查一次伏笔台账与主线推进比例
 - 单章目标字数：3500-4500（可浮动 ±10%）
 - 章节改写必须整章重写，不得做局部替换式修补
-- 生成前必读：`chinese-writing-constraints` 的 references/language/中文生成约束.md
+- 生成前必读：`chinese-writing-constraints` 的 references/anti-patterns.md 和 references/checking-process.md
 
 ## 阶段 6：周期复盘
 
@@ -149,7 +166,7 @@
 
 执行边界：不重开结构性改稿，不补新事件，只做发布口径统一、载体适配、版心适配、分段优化、异常标点修正、平台文案整理。
 
-建议模板：`fiction-publish` 的 references/模板_发布前最终核对单.md、模板_发布前最终核验.md
+建议模板：`templates` 的 references/发布/模板_发布前最终核对单.md、模板_发布前最终核验.md
 
 ## 阶段 10：结项复盘与框架反哺
 
