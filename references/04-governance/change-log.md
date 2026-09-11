@@ -1,0 +1,755 @@
+# 框架变更记录
+
+本文件记录 `references/` 结构与规范的正式变更。
+排列规则：按日期倒序；同一日期内按编号倒序。
+
+## 记录条目
+
+### FW-20260409-04
+- 日期：2026-04-09
+- 状态：已生效
+- 类型：规则/流程
+- 变更摘要：新增“L5 临界时优先回写 L4”的创作规避规则，明确当草稿逼近 L5 但项目目标仍要求非露骨时，应优先把该段重写为 L4，而不是继续推进到 L5。
+- 触发原因：项目侧确认需要一条可执行的创作回退路径，避免作者在临界区反复试探并误把越界当成完成度。
+- 影响文档：
+  - `references/03-resources/intimacy-levels.md`
+  - `references/03-resources/reusable-rules.md`
+  - `references/03-resources/checklists.md`
+- 迁移动作：
+  - 在分级指南中加入创作规避规则，说明 L4 重写不是失败修补，而是正常流程。
+  - 在可复用规则库中加入“逼近 L5 时回写 L4”的判断条目。
+  - 在检查清单中加入对应复核项。
+- 校验结果：
+  - 框架已具备从 L5 临界回退到 L4 的标准流程。
+  - 亲密创作可以在不越线的前提下继续加厚张力。
+- 风险与后续：
+  - 如果后续项目需要更严格的边界，应在项目层再加一层收紧，不要改动框架默认流程。
+
+### FW-20260409-03
+- 日期：2026-04-09
+- 状态：已生效
+- 类型：规则/检查
+- 变更摘要：细化 `intimacy-levels.md` 的 L4/L5 触发条件，明确胸部、乳头、手指、接吻、贴身、肌肤相贴、十指紧扣等不自动触发 L5；L5 仅在正文正面写出生殖器或明确性行为过程时触发。
+- 触发原因：项目侧已确认需要一个可执行、可复核的边界，把“完整非露骨”与“明确性描写”分开，避免把非露骨身体接触误判为更高等级。
+- 影响文档：
+  - `references/03-resources/intimacy-levels.md`
+  - `references/03-resources/reusable-rules.md`
+  - `references/03-resources/checklists.md`
+- 迁移动作：
+  - 收紧 L4 的定义，使其明确覆盖胸部、乳头、手指、接吻、贴身、肌肤相贴等描写。
+  - 将 L5 的触发条件统一为“正面写出生殖器或明确性行为过程”。
+  - 在可复用规则库与检查清单中同步加入判定条目。
+- 校验结果：
+  - L4 与 L5 的边界已可直接用于章节写前与写后检查。
+  - 非露骨的身体接触不再被默认视为 L5。
+- 风险与后续：
+  - 若后续项目需要更严格口径，应在项目层追加收紧，不要回写框架默认定义。
+
+### FW-20260409-02
+- 日期：2026-04-09
+- 状态：已生效
+- 类型：资源/规则/检查
+- 变更摘要：新增框架级 `intimacy-levels.md`，并将其接入 `SKILL.md`、可复用规则库与质量检查清单，作为涉及亲密内容时的统一分级入口。
+- 触发原因：项目实践已验证亲密描写需要稳定的分级口径，才能避免作者在“到底写到多肉”上反复试写、反复回退；同时该口径已经抽象为通用规则，适合从项目资产上提为框架资源。
+- 影响文档：
+  - `SKILL.md`
+  - `references/03-resources/intimacy-levels.md`
+  - `references/03-resources/reusable-rules.md`
+  - `references/03-resources/checklists.md`
+- 迁移动作：
+  - 在框架资源层新增亲密描写分级指南，统一 L0-L5 的定义、适配场景、叙事方式与检查清单。
+  - 在 `SKILL.md` 的文档结构、快速入口与使用方式中加入亲密内容入口。
+  - 在 `reusable-rules.md` 中新增亲密描写分级规则摘要。
+  - 在 `checklists.md` 中新增亲密描写检查条目，作为写前、写中、写后复核入口。
+- 校验结果：
+  - 框架已具备亲密内容的统一参考入口，不再依赖项目内专用文档。
+  - L4 作为“完整非露骨”边界已在框架层明确。
+- 风险与后续：
+  - 若后续出现明确的平台口径差异，应在项目层再做局部收紧，不要直接改写框架默认分级。
+
+### FW-20260409-01
+- 日期：2026-04-09
+- 状态：已生效
+- 类型：方法/结构/选型
+- 变更摘要：吸收外部创作理论材料，新增结构工具箱与选型原则，明确 Story Circle / 三幕 / 英雄之旅 / 拯救猫咪 / 七点式 / Story Grid / 雪花 / 特鲁比 / 起承转合 / 弗赖塔格 / 费希特曲线的适用边界与组合规则。
+- 触发原因：近期项目实践已验证丹·哈蒙故事圈适合作为单元级默认骨架，但长篇规划、场景校验、伏笔回收、人物对手网络与低冲突日常仍需要更明确的辅助工具选型。外部材料中存在一批稳定、可重复、可执行的理论与检查项，适合从“参考阅读”升级为“框架入口资产”。
+- 影响文档：
+  - `SKILL.md`
+  - `references/01-domain/plot.md`
+  - `references/01-domain/structure-toolbox.md`
+  - `references/01-domain/narrative.md`
+  - `references/01-domain/genre.md`
+- 迁移动作：
+  - 在 `SKILL.md` 新增“结构工具箱与选型原则”，把外部理论的吸收边界、默认优先级和组合原则写入总入口。
+  - 新建 `references/01-domain/structure-toolbox.md`，将各结构的适用场景、骨架、实施方法和失败判定集中收纳为可查参考。
+  - 在 `plot.md` 新增结构选型矩阵，明确不同结构在宏观骨架、节拍控制、长篇规划、人物网络和题材调性中的分工。
+  - 在 `narrative.md` 补入 Story Grid 场景诫命与起承转合的留白能力，作为场景级校验规则。
+  - 在 `genre.md` 补入结构适配规则，将题材与结构选型关联起来。
+- 校验结果：
+  - 默认骨架已明确为“故事圈 + 单章任务 + 场景校验”。
+  - 宏观、节拍、长篇规划、人物网络、题材调性各自都有对应的结构工具，不再混用。
+  - 框架能够区分“可升级为默认规则”的理论与“仅作项目参考”的理论。
+- 风险与后续动作：
+  - 结构工具箱当前以稳定共识为主，后续若出现新的可复用理论，只应按“稳定资产”标准补入，不要堆砌学术名词。
+
+### FW-20260326-01
+- 日期：2026-03-26
+- 状态：已生效
+- 类型：工具/发布
+- 变更摘要：新增通用出版构建器 `scripts/build_publication_with_pandoc.py`，并配套沉淀默认 Pandoc / Vivliostyle 样式与示例配置，作为框架级 `epub / html / pdf` 发布入口。
+- 触发原因：`deepsky-era` 项目已验证出稳定的 Pandoc + Vivliostyle 构建链，但原脚本硬编码在项目内，只适配分卷结构；`the-last-straw` 采用平铺章节结构，若继续复制项目脚本，会形成维护分叉。
+- 影响文档：
+  - `SKILL.md`
+  - `scripts/build_publication_with_pandoc.py`
+  - `assets/pandoc-book.css`
+  - `assets/vivliostyle-book.css`
+  - `assets/publication-build.sample.json`
+- 迁移动作：
+  - 将已验证的发布构建链抽取为 skill 级通用脚本
+  - 支持平铺章节与分卷目录两种正文组织方式
+  - 保留 `print html + Vivliostyle` 的 PDF 双轨构建
+  - 增补“只抽取后记正文”逻辑，避免项目过程元信息被拼入出版稿
+  - 补齐统一默认样式与 JSON 配置样例
+- 校验结果：
+  - 已在 `projects/the-last-straw` 上接入项目配置并完成真实构建验证
+- 风险与后续动作：
+  - 当前配置层采用 JSON 以避免额外依赖；若未来需要更复杂的出版元数据，应在通用脚本上扩展字段，而不是回退为项目内硬编码。
+
+### FW-20260320-03
+- 日期：2026-03-20
+- 状态：已生效
+- 类型：工具/治理
+- 变更摘要：新增标准正文字数统计脚本 `scripts/count_manuscript_words.py`，并在 `SKILL.md` 中挂接为发布前与体量核验入口工具。
+- 触发原因：项目发布准备阶段需要稳定、可复用、可追溯的正文字数统计方式；原流程强调“字数检查”，但缺少统一脚本来落实“中文字符算 1 字、英文单词算 1 字、标点不计、排除标题与额外备注信息”的统计口径。
+- 影响文档：
+  - `SKILL.md`
+  - `scripts/count_manuscript_words.py`
+- 迁移动作：
+  - 新建 `scripts/count_manuscript_words.py`
+  - 约定默认统计 `07-writing/chapters/`，可选并入 `07-writing/samples/`
+  - 统一过滤口径：跳过 Markdown 标题、front matter、横线分隔和显式备注行
+- 校验结果：
+  - 已对 `projects/deepsky-era` 成功执行统计
+  - 脚本输出总字数、分目录汇总与分文件明细
+- 风险与后续动作：
+  - 若后续项目正文中出现新的常见元信息格式，应把对应过滤规则补入脚本，而不是各项目自行另起统计口径。
+
+### FW-20260320-02
+- 日期：2026-03-20
+- 状态：已生效
+- 类型：结构
+- 变更摘要：按 Agent Skill 标准结构完成框架重组。消除 Rulebook/Playbook 双层体系，合并为 8 个领域分册（`references/01-domain/`）；标准创作流程重写为 `references/02-process/stages.md`，方法细节改为引用领域分册；模板、检查清单、复用规则迁移至 `references/03-resources/`；治理文档迁移至 `references/04-governance/`；SKILL.md 全面重写为精简入口。
+- 触发原因：原 `framework/` 结构层级过多（methods/guide + methods/rulebook + methods/playbook + process + templates + checklists + reusable-rules + specifications + governance = 9 层），规则与方法双轨并行导致重复内容和引用路径混乱；需统一为 Agent Skill 标准结构（SKILL.md + references/）。
+- 影响文档：
+  - `SKILL.md`（全面重写，237 行）
+  - `references/01-domain/worldbuilding.md`（新建，合并 rulebook/01 + playbook/03）
+  - `references/01-domain/character.md`（新建，合并 rulebook/02 + playbook/04）
+  - `references/01-domain/plot.md`（新建，合并 rulebook/03 + playbook/05 + playbook/01）
+  - `references/01-domain/narrative.md`（新建，合并 rulebook/04 + playbook/06）
+  - `references/01-domain/rhetoric.md`（新建，来自 rulebook/05）
+  - `references/01-domain/genre.md`（新建，合并 rulebook/07 + playbook/02 + playbook/09）
+  - `references/01-domain/editing-review.md`（新建，合并 rulebook/06 + playbook/08）
+  - `references/01-domain/reference-and-sources.md`（新建，合并 rulebook/08 + rulebook/09）
+  - `references/02-process/stages.md`（新建，重写标准创作流程）
+  - `references/02-process/collaboration.md`（迁移 + 路径更新）
+  - `references/02-process/project-structure.md`（迁移 + 路径更新）
+  - `references/03-resources/templates/`（21 模板 + README 迁移 + 路径更新）
+  - `references/03-resources/checklists.md`（迁移 + 路径更新）
+  - `references/03-resources/reusable-rules.md`（迁移）
+  - `references/04-governance/`（3 治理文件 + 2 市场调研迁移 + 路径更新）
+  - `references/01-domain/language/`（5 语言规格迁移 + 路径更新）
+- 迁移动作：
+  - 新建 `references/` 四层结构（01-domain / 02-process / 03-resources / 04-governance）
+  - 合并 Rulebook 01-09 + Playbook 01-10 为 8 个自包含领域分册
+  - 重写标准创作流程为 stages.md（700→400 行，方法细节改引用）
+  - 迁移 37 个文件并批量更新 210 处内部路径引用
+  - 删除 TODO.md（内容已全部完成）
+  - 旧 `framework/` 保留用于对比验证
+- 校验结果：46 个新文件，7520 行；全部 `framework/` 路径引用已更新（仅保留 1 处历史条目和 archive 引用）
+- 风险与后续动作：旧 `framework/` 目录待确认无遗漏后可清理
+
+### FW-20260320-01
+- 日期：2026-03-20
+- 状态：已生效
+- 类型：流程/规格/方法/模板/检查
+- 变更摘要：新增中文生成约束规格文档，重构阶段 7 标准动作（重述法设为默认），新增独立阶段 7b「中文重塑」，并同步更新全框架相关引用。
+- 触发原因：多个项目验证出 LLM 生成的中文正文持续存在翻译腔（压缩名词主语、使役动词、连接词过密、概念先行、情绪标签代替展示），且经过现有阶段 7 精修后仍然残留。根因分析发现：(1) 框架语言规格是"知识描述"而非"生成指令"，不包含反模式→正例对照；(2) 中文约束在执行链中定位过晚（阶段 7 才出现），生成阶段（阶段 3/5）缺乏前置约束；(3) 精修标准动作仍以"在原文上改"为默认，而 LLM 会被原文句法骨架锡定，只做表面替换无法摆脱翻译腔。
+- 影响文档：
+  - `SKILL.md`
+  - `references/02-process/stages.md`
+  - `references/02-process/collaboration.md`
+  - `references/01-domain/editing-review.md`
+  - `SKILL.md`
+  - `references/01-domain/rhetoric.md`
+  - `references/01-domain/editing-review.md`
+  - `references/03-resources/templates/模板_整书中文表达审读提要.md`
+  - `references/03-resources/templates/模板_联动更新清单.md`
+  - `references/03-resources/checklists.md`
+  - `references/01-domain/language/中文生成约束.md`
+  - `references/01-domain/language/00.index.md`
+  - `SKILL.md`
+- 迁移动作：
+  - 新增 `references/01-domain/language/中文生成约束.md`，作为生成时操作手册（非语言学知识描述），包含：LLM 翻译腔成因分析、12 个高频反模式与正例对照、中文叙事正面特征库、三阶段生成检查流程（生成前/中/后）、12 条"似高级实则翻译腔"黑名单、快速自检 8 问、精修与重塑方法详解。
+  - 在 `SKILL.md` 入口新增「中文生成核心约束」段落（10 条反模式 + 5 条硬规则），在 Agent 入口和使用方式中将中文生成约束设为不可跳过的优先读取项。
+  - 在 `标准创作流程.md` 执行硬规则、阶段 3 样章验证、阶段 5 持续生产中前置「生成前必读」约束块。
+  - 重构阶段 7 标准动作：步骤 3 从「按批次表达重写」改为「按批次表达重述（默认方法）」——不给 LLM 原文，只给叙事任务清单；步骤 4 从「逐字句精修」改为「分层精修」（对白轮→段首段尾轮→删减轮）；步骤 5 整合删减法到整书回读环节；新增操作禁令（禁止在原文上反复重试、禁止通读逐句润色）。
+  - 新增阶段 7b「中文重塑」：完全独立的重建流程，入口条件为阶段 7 完成后仍有 >30% 章节存在系统性翻译腔且用户明确授权。标准动作为：提取逐章叙事任务清单→逐章从叙事任务重建→对白单独一轮→删减轮→整书回读→联动更新。
+  - 更新两处执行链（标准创作流程 + SKILL.md）加入阶段 7b。
+  - 更新长篇项目补充要求：阶段 7 默认使用重述法；阶段 7b 为条件触发。
+  - 在质量检查清单 Section J 替换为重述法/分层法导向的检查项，新增 Section J-2（阶段 7b 专用检查项）。
+  - 重写 `playbook/08-stage7-edit-review.md`：从旧的"三轮审阅"模型替换为新的"四种核心方法 + 阶段 7/7b 对照"结构。
+  - 在 `playbook/README.md` 映射中加入阶段 7b，修正分册名称。
+  - 在 `rulebook/05.rhetoric.md` 检查项中加入翻译腔残留检查与中文生成约束引用。
+  - 在 `rulebook/06.editing-review.md` 可执行条款中加入重述法默认与阶段 7b 升级规则。
+  - 在 `多Agent操作流程.md` 交接产物中加入阶段 7b 角色交接产物。
+  - 在 `模板_联动更新清单.md` 变更纪律中区分阶段 7 和 7b 的检查项。
+  - 在 `模板_整书中文表达审读提要.md` 使用说明中加入阶段 7b 适用性和重述法关联。
+  - 在 `00.index.md` 中将中文生成约束设为最高优先级读取项，新增「生成约束」层级。
+- 校验结果：
+  - 中文生成约束从"语言学知识"升级为"生成时操作指令"，直接嵌入执行链。
+  - 阶段 7 标准动作已不再默认"在原文上改"，而是默认"从叙事任务重述"。
+  - 阶段 7b 作为独立阶段有完整的入口条件、标准动作、操作禁令和质量验证。
+  - 从 SKILL 入口到流程、方法、模板、检查清单、规格层均已同步更新，无引用断层。
+- 风险与后续：
+  - 阶段 7b 的 30% 翻译腔触发阈值为经验值，后续可根据项目实践校准。
+  - playbook 分册已从旧的"三轮审阅"完全替换，旧模型中"动骨审阅""去脂审阅"等结构层操作已由阶段 4（反馈迭代）和阶段 6（周期复盘）承接，不再在阶段 7 方法分册中重复。
+
+### FW-20260313-03
+- 日期：2026-03-13
+- 状态：已生效
+- 类型：流程/模板/检查
+- 变更摘要：补强 `STYLEGUIDE / SOUL / 项目写作语言参考` 的推导边界，并把“发布资产口径统一 -> 发布前最终核验”正式写入框架。
+- 触发原因：`the-last-straw` 项目验证出两类先前尚未完全写实的规则：一是 `STYLEGUIDE`、`SOUL` 与语言参考必须从设定、角色弧线、大纲和体裁推导，不能从现有正文反推；二是正文停改后，发布资产还需要经历“统一口径 -> 核对单 -> 最终核验”三步，单有核对单不足以承接最终发布裁决。
+- 影响文档：
+  - `references/02-process/stages.md`
+  - `references/02-process/project-structure.md`
+  - `references/03-resources/templates/README.md`
+  - `references/03-resources/templates/模板_STYLEGUIDE.md`
+  - `references/03-resources/templates/模板_SOUL.md`
+  - `references/03-resources/templates/模板_项目写作语言参考.md`
+  - `references/03-resources/templates/模板_发布前最终核对单.md`
+  - `references/03-resources/templates/模板_发布前最终核验.md`
+  - `references/03-resources/checklists.md`
+- 迁移动作：
+  - 在阶段 1、阶段 7、阶段 9 中补入 `STYLEGUIDE / SOUL / 项目写作语言参考` 的推导边界与后补建使用边界。
+  - 在发布阶段补入“发布资产作为统一资产包降温”“从现有资产选定默认首发组合”“最终核验区分文本层与投放层”的正式规则。
+  - 新增 `模板_发布前最终核验.md`，作为发布前最终判断资产。
+  - 在检查清单中补入“推导边界”“后补建边界”“发布最终核验”检查项。
+- 校验结果：
+  - `STYLEGUIDE / SOUL / 项目写作语言参考` 现在不仅有调用入口，也有了明确的来源约束与后补建边界。
+  - 发布阶段已从“整理文案”升级为“统一文案 -> 核对单 -> 最终核验”的完整闭环。
+  - 模板层已能直接承接 `the-last-straw` 验证出的发布收口路径。
+- 风险与后续：
+  - 当前新增的“发布前最终核验”模板先服务长篇终稿发布；若后续短篇集或连载完结也稳定采用同一路径，再考虑补更细的模式化变体。
+
+### FW-20260313-02
+- 日期：2026-03-13
+- 状态：已生效
+- 类型：结构/规格/流程/模板
+- 变更摘要：新增 `references/01-domain/` 规格层，并将现代汉语“词汇 / 语法 / 修辞”整理为框架级中文语言核心规格。
+- 触发原因：`screening-room-37` 项目在语言复核中验证出，现代汉语相关材料已不再只是项目临时参考，而是可跨项目复用的中文语言基线。但 `framework/references/` 已被定义为历史追溯层，不适合承载现行硬规格，因此需要新增专用规格层，避免“活规范”和“追溯镜像”继续混放。
+- 影响文档：
+  - `SKILL.md`
+  - `SKILL.md`
+  - `references/02-process/stages.md`
+  - `references/02-process/project-structure.md`
+  - `references/03-resources/templates/README.md`
+  - `references/03-resources/templates/模板_STYLEGUIDE.md`
+  - `references/03-resources/templates/模板_项目写作语言参考.md`
+  - `references/03-resources/checklists.md`
+  - `references/04-governance/update-mechanism.md`
+  - `SKILL.md`
+  - `references/01-domain/language/00.index.md`
+  - `references/01-domain/language/现代汉语_词汇规范.md`
+  - `references/01-domain/language/现代汉语_语法规范.md`
+  - `references/01-domain/language/现代汉语_修辞规范.md`
+- 迁移动作：
+  - 新增 `references/01-domain/`，作为框架现行规格层。
+  - 将项目中的现代汉语提取资产重组为三份框架级语言规格，保留正式定义、核心分类、关键概念和主要用法指南，不再沿用时间戳命名和项目包装。
+  - 将三份原始提取稿迁入 `framework/references/language/`，作为规格层的上游追溯材料。
+  - 在 `SKILL.md`、流程、模板、清单中补入 `07-specifications` 的调用入口。
+  - 明确“项目写作语言参考”的推荐上游是框架语言规格，而不是原始厚材料。
+- 校验结果：
+  - 语言基线已从项目经验升级为框架现行规格。
+  - `references/` 继续保持“只追溯不执行”的职责边界。
+  - 后续项目可直接引用统一的中文语言硬标准，再按项目压缩为短入口。
+  - 三份语言规格后续已继续补入“典型正例 / 误例库”，不再只是概念说明，可直接用于语言判断训练。
+- 风险与后续：
+  - 当前规格层先收纳中文语言资源；若后续出现稳定的类型专项硬规格，应继续沿 `07-specifications/` 扩展，而不是重新塞回 `references/` 或 `methods/`。
+
+### FW-20260313-01
+- 日期：2026-03-13
+- 状态：已生效
+- 类型：流程/模板/检查
+- 变更摘要：将项目级 `STYLEGUIDE.md`、角色级 `SOUL.md` 与“项目写作语言参考”短引用流程正式吸收为框架过程资产。
+- 触发原因：`screening-room-37` 项目验证出两套高频新流程已经稳定可用：一套用于长期维持语言风格、叙述方式与角色人设，一套用于把现代汉语等厚材料压缩成短引用入口，再回灌到风格总纲与全文复核。原框架尚未把这两套流程制度化，导致它们仍停留在项目经验层。
+- 影响文档：
+  - `SKILL.md`
+  - `references/02-process/stages.md`
+  - `references/02-process/project-structure.md`
+  - `references/03-resources/templates/README.md`
+  - `references/03-resources/templates/模板_项目README.md`
+  - `references/03-resources/templates/模板_STYLEGUIDE.md`
+  - `references/03-resources/templates/模板_SOUL.md`
+  - `references/03-resources/templates/模板_项目写作语言参考.md`
+  - `references/03-resources/checklists.md`
+- 迁移动作：
+  - 在阶段 1 中补入 `STYLEGUIDE.md`、`SOUL.md` 与项目写作语言参考的前置搭建规则。
+  - 在阶段 3 与阶段 7 中补入“先读 `STYLEGUIDE + SOUL + 裁决` 再生成 / 精修”的执行要求。
+  - 在项目结构模板中补入根级 `STYLEGUIDE.md`、`03-foundation/souls/` 与语言参考入口。
+  - 新增 `模板_STYLEGUIDE.md`、`模板_SOUL.md`、`模板_项目写作语言参考.md`。
+  - 在质量检查清单中新增风格与中文基线检查项。
+- 校验结果：
+  - 这两套流程已经从项目经验升级为框架正式入口、模板与验收项。
+  - 后续项目不必再从零摸索 `STYLEGUIDE / SOUL / 语言参考` 的目录位置、文档结构和调用时机。
+- 风险与后续：
+  - 当前模板已覆盖长篇 / 连载 / 多 POV / 强风格约束项目；后续若在其他题材中验证出更细的专项规则，应优先增补到模板而非继续写散点项目说明。
+
+### FW-20260311-07
+- 日期：2026-03-11
+- 状态：已生效
+- 类型：流程/模板/治理
+- 变更摘要：补齐样章阶段三方审阅闭环，落实 Rubric 附加指标字段，并明确 `references/` 仅用于追溯不参与执行。
+- 触发原因：框架审阅中发现三处断裂：样章阶段只有“样章评审”结果，没有与 Reviewer / Reader / Editor 三方审阅明确打通；Rubric 门槛要求“章节钩子强度”，但执行模板缺少对应字段；模板入口仍把 `references/process/workflow.md` 当作执行模板源，和“参考层只追溯不执行”的原则冲突。
+- 影响文档：
+  - `SKILL.md`
+  - `references/03-resources/templates/模板_共享审阅块.md`
+  - `references/02-process/stages.md`
+  - `references/02-process/project-structure.md`
+  - `references/03-resources/templates/README.md`
+  - `references/03-resources/templates/模板_Reviewer评审单.md`
+  - `references/03-resources/templates/模板_样章评审单.md`
+  - `references/03-resources/checklists.md`
+  - `references/04-governance/update-mechanism.md`
+  - `framework/references/README.md`
+- 迁移动作：
+  - 新增 `模板_样章评审单.md`，将样章阶段定义为“Reviewer + Reader + Editor 三方审阅后形成最终裁决”。
+  - 在主流程、项目结构模板、质量检查清单中补齐样章阶段的三方审阅与转正/归档裁决规则。
+  - 在 Reviewer 模板与共享评审规范中补入“章节钩子强度”字段与网文连载附加判定。
+  - 将模板入口与参考索引中的 `references/` 口径统一为“只追溯不执行”。
+  - 修正 `框架更新机制.md` 的目录规则编号错误。
+- 校验结果：
+  - 样章阶段已不再游离于多 Agent 审阅闭环之外。
+  - Rubric 门槛与执行模板已重新一致。
+  - 执行层文档已不再把 `references/process/workflow.md` 当作活跃模板入口。
+- 风险与后续：
+  - 后续若继续上调 Rubric 指标或新增模式专属指标，必须同步回写流程、Reviewer 模板与共享评审规范，避免再次出现“门槛已改、模板未跟”的断层。
+
+### FW-20260311-06
+- 日期：2026-03-11
+- 状态：已生效
+- 类型：结构/流程
+- 变更摘要：将项目质量评审目录从 `04-quality/` 统一迁移为 `11-quality/`，并补入项目结构模板与治理规则。
+- 触发原因：`04-quality/` 与 `04-outline/` 共用 04 号位，已经违背目录编号唯一规则；随着 `10-publication/` 固化，质量评审目录也需要独立顺延并进入正式模板。
+- 影响文档：
+  - `references/02-process/project-structure.md`
+  - `references/02-process/stages.md`
+  - `references/02-process/collaboration.md`
+  - `references/03-resources/templates/模板_项目README.md`
+  - `references/03-resources/templates/模板_联动更新清单.md`
+  - `references/03-resources/templates/模板_Editor汇总与改稿指令.md`
+  - `references/03-resources/checklists.md`
+  - `references/04-governance/project-governance.md`
+  - `references/04-governance/update-mechanism.md`
+- 迁移动作：
+  - 将样章评审、章节质检、整书中文表达精修、整书终稿评审等输出目录统一改为 `11-quality/`。
+  - 在项目结构模板中显式加入 `11-quality/`。
+  - 在项目入口模板中补入 `11-quality/` 的目录位与阶段说明。
+  - 在质量检查清单中加入“质量目录必须使用 `11-quality/`”的验收项。
+  - 在治理与更新机制中补入“质量目录统一使用 11 号位”的硬规则。
+- 校验结果：
+  - 框架层已不再把质量评审资产指向 `04-quality/`。
+  - 目录编号规则与流程输出目录已重新一致。
+- 风险与后续：
+  - 当前工作区项目已完成首批目录迁移；后续新增或外部导入项目不得再创建旧质量目录命名。
+
+### FW-20260311-05
+- 日期：2026-03-11
+- 状态：已生效
+- 类型：结构/流程/模板
+- 变更摘要：统一新项目入口文件为根目录 `README.md`，发布准备目录顺延为 `10-publication/`，并补齐样章转正/归档流程。
+- 触发原因：旧项目普遍以 `项目结构与流程.md` 充当项目入口，而新项目缺少统一入口规范；同时 `09-assets/` 已占用 09 号位，发布目录继续使用 `09-publication/` 会造成编号冲突；样章采纳后的转移或归档流程也需要正式入框架。
+- 影响文档：
+  - `references/02-process/project-structure.md`
+  - `references/02-process/stages.md`
+  - `references/02-process/collaboration.md`
+  - `references/03-resources/templates/README.md`
+  - `references/03-resources/templates/模板_项目README.md`
+  - `references/03-resources/templates/模板_联动更新清单.md`
+  - `references/03-resources/checklists.md`
+  - `references/03-resources/reusable-rules.md`
+  - `references/04-governance/project-governance.md`
+  - `references/04-governance/update-mechanism.md`
+- 迁移动作：
+  - 在项目结构模板中新增根目录 `README.md` 与 `10-publication/`，并写明目录序号不得冲突。
+  - 新增 `模板_项目README.md`，统一项目入口文件写法。
+  - 将样章采纳后的两种路径正式化：直接转正迁移到 `chapters/`，或改写转正并把原样章与相关审阅文档归档到 `99-archive/samples-YYYYMMDD/`。
+  - 将发布相关路径统一为 `10-publication/`。
+- 校验结果：
+  - 框架结构层、流程层、模板层、检查层、治理层已对齐新的入口文件和目录编号规则。
+  - 样章转正 / 改写转正 / 归档的边界已从经验做法变成正式规则。
+- 风险与后续：
+  - 当前工作区项目已完成根目录入口文件迁移；后续新增或外部导入项目也必须直接使用 `README.md`。
+
+### FW-20260311-04
+- 日期：2026-03-11
+- 状态：已生效
+- 类型：治理/流程
+- 变更摘要：明确 `标准创作流程.md` 与 `多Agent操作流程.md` 的职责边界，收敛为“主流程入口 + 协作扩展说明”双层结构。
+- 触发原因：在长篇终稿与发布流程补入后，`多Agent操作流程.md` 仍保留早期主流程与硬规则表述，已与 `标准创作流程.md` 形成重复维护与潜在冲突。
+- 影响文档：
+  - `SKILL.md`
+  - `references/02-process/stages.md`
+  - `references/02-process/collaboration.md`
+- 迁移动作：
+  - 在 `标准创作流程.md` 中明确其为唯一执行入口。
+  - 将 `多Agent操作流程.md` 重写为协作扩展说明，只保留角色职责、交接产物、按阶段协作粒度与协作侧联动更新要求。
+  - 在 `SKILL.md` 中补充两者关系说明，避免再次被视为双主入口。
+- 校验结果：
+  - 主流程、停改规则、终稿裁决与发布边界已统一回收到 `标准创作流程.md`。
+  - 多Agent文档已不再重复定义主流程级硬规则。
+- 风险与后续：
+  - 后续若新增 Agent 角色或协作粒度，优先更新 `多Agent操作流程.md`；若涉及阶段边界或停改规则，必须回写 `标准创作流程.md`。
+
+### FW-20260311-03
+- 日期：2026-03-11
+- 状态：已生效
+- 类型：流程/检查/模板/入口
+- 变更摘要：将“整书中文表达精修 -> 终稿级多方评审 -> 发布准备 / 校样准备 -> 结项反哺”正式下放到框架层，并同步压缩 `SKILL.md` 为入口文档。
+- 触发原因：`the-last-straw` 项目完整验证了长篇终稿收口链路，原框架停留在“持续生产 + 周期复盘”，且细则曾临时堆积在 `SKILL.md`，不利于长期治理。
+- 影响文档：
+  - `SKILL.md`
+  - `references/02-process/stages.md`
+  - `references/03-resources/checklists.md`
+  - `references/03-resources/templates/README.md`
+  - `references/03-resources/templates/模板_Editor汇总与改稿指令.md`
+  - `references/03-resources/templates/模板_Reviewer评审单.md`
+  - `references/03-resources/templates/模板_Reader读者角色卡.md`
+  - `references/03-resources/templates/模板_联动更新清单.md`
+  - `references/03-resources/templates/模板_整书中文表达审读提要.md`
+  - `references/03-resources/templates/模板_发布前最终核对单.md`
+- 迁移动作：
+  - 在流程层新增阶段 7-10，并补入正文停改与发布收口规则。
+  - 在检查层新增整书中文表达精修、终稿级多方评审、发布准备、结项反哺四组检查项。
+  - 在模板层新增整书中文表达审读提要与发布前最终核对单，并扩展 Reviewer / Reader / Editor / 联动更新模板到整书终稿与发布阶段。
+  - 将 `SKILL.md` 从半操作手册收敛为“入口 + 原则 + 导航 + 硬约束”。
+- 校验结果：
+  - 流程层、检查层、模板层与 Skill 入口已形成分层闭环。
+  - 长篇终稿、发布准备、中文表达精修不再依赖项目级临时经验，而成为框架正式能力。
+- 风险与后续：
+  - 后续应继续检查 `references/04-governance/project-governance.md`、`references/04-governance/update-mechanism.md`、`references/02-process/project-structure.md` 是否完全跟上新的终稿与发布收口阶段。
+
+### FW-20260311-02
+- 日期：2026-03-11
+- 状态：已生效
+- 类型：模板/流程
+- 变更摘要：补齐短篇小说集与同世界观导入融合的正式模板资产。
+- 触发原因：流程层已支持短篇矩阵、反雷同审阅、导入融合，但模板层缺少统一落地文档，导致执行口径仍可能漂移。
+- 影响文档：
+  - `references/03-resources/templates/模板_导入资产融合评估.md`
+  - `references/03-resources/templates/模板_短篇矩阵.md`
+  - `references/03-resources/templates/模板_篇章反雷同审阅单.md`
+  - `references/03-resources/templates/README.md`
+  - `references/02-process/stages.md`
+  - `references/02-process/project-structure.md`
+- 迁移动作：
+  - 新增导入资产融合评估模板，统一“保留 / 改写并并入 / 拆分吸收 / 仅归档”结论写法。
+  - 新增短篇矩阵模板，统一短篇集横向规划与篇章排期写法。
+  - 新增篇章反雷同审阅单，统一整组结构去重审阅写法。
+  - 将模板入口回写到流程层与项目结构层。
+- 校验结果：
+  - 模板层、流程层、结构层已形成闭环引用。
+- 风险与后续：
+  - 后续若形成“导入批次对照表”或“角色迁移改名表”高频资产，可继续扩展为独立模板。
+
+### FW-20260311-01
+- 日期：2026-03-11
+- 状态：已生效
+- 类型：流程/规则/结构
+- 变更摘要：补充短篇小说集执行资产，并新增同世界观导入融合标准流程。
+- 触发原因：在 `fog-harbor` 项目中验证出短篇集反雷同审阅、设定集拆分、同世界观导入融合的高频需求，需要回写框架形成可复用能力。
+- 影响文档：
+  - `SKILL.md`
+  - `SKILL.md`
+  - `references/02-process/stages.md`
+  - `references/02-process/project-structure.md`
+  - `references/03-resources/checklists.md`
+  - `references/03-resources/reusable-rules.md`
+- 迁移动作：
+  - 新增短篇小说集模式、横向反雷同检查与转正规则。
+  - 新增同世界观导入融合前置流程与 `import-YYYYMMDD` 批次约束。
+  - 将导入融合要求写入流程、项目结构、检查清单与规则库。
+- 校验结果：
+  - Skill 入口、流程层、结构层、检查层与治理层已形成一致表述。
+- 风险与后续：
+  - 后续若沉淀出稳定的短篇矩阵模板或导入融合专用模板，可继续补入 `references/03-resources/templates/`。
+
+### FW-20260310-13
+- 日期：2026-03-10
+- 状态：已生效
+- 类型：规则/流程
+- 变更摘要：强化创作变更纪律与交付规范，新增单对象变更、整章重写、禁用bak副本、生成后编码检查等硬规则。
+- 触发原因：降低迭代失控与上下文破碎风险，提升审阅一致性与可恢复性。
+- 影响文档：
+  - `SKILL.md`
+  - `references/02-process/stages.md`
+  - `references/02-process/collaboration.md`
+  - `references/03-resources/checklists.md`
+  - `references/03-resources/templates/模板_联动更新清单.md`
+- 迁移动作：
+  - 增加“每轮仅一个变更对象”规则。
+  - 增加“章节改写必须整章重写”规则。
+  - 增加“禁止 `.bak`/`_old` 正文副本”规则。
+  - 增加“字数/格式/风格/视角/节奏/编码检查”必检规则。
+- 校验结果：
+  - 规则已在 Skill、流程、协作、检查清单与联动模板五层同步。
+- 风险与后续：
+  - 若后续引入自动化生成工具，需保持同等规则约束并输出检验记录。
+
+### FW-20260310-12
+- 日期：2026-03-10
+- 状态：已生效
+- 类型：治理/结构
+- 变更摘要：将 `FRAMEWORK.md` 主要内容并入 `SKILL.md`，收敛为单一主入口，简化文档结构。
+- 触发原因：减少主入口重复维护，统一 Agent 与创作者导航来源。
+- 影响文档：
+  - `SKILL.md`
+  - `FRAMEWORK.md`
+  - `references/04-governance/update-mechanism.md`
+- 迁移动作：
+  - 将目录分层、主文档导航、参考文档导航、快速入口、日志要求并入 `SKILL.md`。
+  - `FRAMEWORK.md` 收敛为跳转页。
+  - 更新机制中的主入口由 `FRAMEWORK.md` 调整为 `SKILL.md`。
+- 校验结果：
+  - `SKILL.md` 可独立承载入口、流程与治理导航。
+- 风险与后续：
+  - 后续任何入口变更必须优先更新 `SKILL.md`，避免再出现双入口分叉。
+
+### FW-20260310-11
+- 日期：2026-03-10
+- 状态：已生效
+- 类型：流程/模板
+- 变更摘要：增强多Agent协作执行细则，新增联动更新强约束与Reader角色模板体系。
+- 触发原因：确保章节/大纲/设定改动后，角色、世界观、阵营与日志同步更新；提升Reader反馈结构化程度。
+- 影响文档：
+  - `SKILL.md`
+  - `references/02-process/stages.md`
+  - `references/02-process/collaboration.md`
+  - `references/03-resources/templates/模板_Reader读者角色卡.md`
+  - `references/03-resources/templates/模板_联动更新清单.md`
+  - `references/03-resources/templates/README.md`
+- 迁移动作：
+  - 新增多Agent操作流程文档并接入入口。
+  - 增加章节/大纲/设定改动的联动更新清单与验收机制。
+  - 新增6类主流读者角色卡（含MBTI、身份、年龄、偏好、评价倾向）。
+- 校验结果：
+  - 可检索到联动更新规则、Reader模板调用规则、角色操作流程入口。
+- 风险与后续：
+  - Reader角色卡可按题材继续扩展，但需保持“角色卡+倾向权重+输出模板”三段结构。
+
+### FW-20260310-10
+- 日期：2026-03-10
+- 状态：已生效
+- 类型：架构/流程
+- 变更摘要：引入多 Agent 协作架构（Writer/Editor/Reviewer/Reader），并将协作链嵌入 Skill 与标准流程。
+- 触发原因：将创作、编辑、评审、读者反馈分工化，形成稳定迭代闭环。
+- 影响文档：
+  - `FRAMEWORK.md`
+  - `SKILL.md`
+  - `references/02-process/stages.md`
+- 迁移动作：
+  - 增加角色定义、协作主链、Editor 汇总反馈机制。
+  - 新增“新项目与既有项目双模式”与“既有项目接入模式”。
+  - 明确 Editor 与 Writer 共同执行选题分析与周期复盘。
+- 校验结果：
+  - 多 Agent 角色、反馈汇总链路、复盘协同与既有项目接入步骤均可检索。
+- 风险与后续：
+  - 后续如新增 Agent 角色，需同步更新 `SKILL.md` 与 `标准创作流程.md` 的角色矩阵与职责边界。
+
+### FW-20260310-09
+- 日期：2026-03-10
+- 状态：已生效
+- 类型：治理/流程
+- 变更摘要：新增仓库根目录 `SKILL.md`，将框架封装为 Agent 可直接调用的技能入口。
+- 触发原因：统一 Agent 启动契约，降低执行歧义。
+- 影响文档：
+  - `SKILL.md`
+  - `FRAMEWORK.md`
+- 迁移动作：
+  - 新增技能文件，内置输入契约、缺省策略、标准执行链、模板与验收标准。
+  - 在 `FRAMEWORK.md` 的 Agent 入口中将 `SKILL.md` 设为第一入口。
+- 校验结果：
+  - Agent 可从 `SKILL.md` 直接进入阶段化流程执行。
+- 风险与后续：
+  - 若流程更新，需同步维护 `SKILL.md` 与 `标准创作流程.md` 的一致性。
+
+### FW-20260310-08
+- 日期：2026-03-10
+- 状态：已生效
+- 类型：流程
+- 变更摘要：补充“单句启动兜底”与缺省策略，消除一句话设定启动时的输入阻塞。
+- 触发原因：从“一句话设定”直接进入首章产出需要完整默认参数。
+- 影响文档：
+  - `references/02-process/stages.md`
+- 迁移动作：
+  - 新增创作目标、类型题材、目标读者的缺省策略。
+  - 新增单句启动兜底：平台、更新节奏、目标体量、禁用项默认值。
+- 校验结果：
+  - 必填输入与阶段 0 关键字段均可由缺省策略补齐。
+- 风险与后续：
+  - 默认值仅用于启动，立项后仍需在 `01-brief/` 做项目级校准。
+
+### FW-20260310-07
+- 日期：2026-03-10
+- 状态：已生效
+- 类型：模板/流程
+- 变更摘要：将 `playbook` 与 `references/guide` 的高复用模板迁移到 `references/03-resources/templates/`，并统一引用入口。
+- 触发原因：减少重复维护，集中模板资产，降低后续更新成本。
+- 影响文档：
+  - `references/03-resources/templates/模板_共享审阅块.md`
+  - `references/03-resources/templates/模板_情节规划.md`
+  - `references/03-resources/templates/模板_编辑修订与投稿检查.md`
+  - `references/03-resources/templates/README.md`
+  - `references/01-domain/plot.md`
+  - `framework/references/guide/06.editing-review.md`
+  - `framework/references/guide/10.shared-review-template.md`
+  - `framework/references/guide/01-05*.md`（共享审阅模板链接统一）
+- 迁移动作：
+  - 抽取并集中共享审阅模板、情节规划模板、编辑修订模板。
+  - `references/guide` 中共享模板改为指向 `references/03-resources/templates/模板_共享审阅块.md`。
+  - `playbook` 情节模板正文改为统一入口引用。
+- 校验结果：
+  - 未发现模板文件重复副本（按文件哈希比对）。
+  - 未发现未被引用的 framework 文档（按路径引用扫描）。
+- 风险与后续：
+  - `references/guide` 中仍保留少量“章节专属小模板”（跨媒介示例）作为方法示例，不作为统一模板维护对象。
+
+### FW-20260310-06
+- 日期：2026-03-10
+- 状态：已生效
+- 类型：结构/规则/治理
+- 变更摘要：简化方法目录层级，移除 `guide/reference` 重复副本，统一参考指向 `framework/references/guide/`。
+- 触发原因：消除重复维护成本，降低路径复杂度，保证单一真源。
+- 影响文档：
+  - `FRAMEWORK.md`
+  - `SKILL.md`
+  - `SKILL.md`
+  - `references/01-domain/*.md`
+  - `references/02-process/stages.md`
+  - `references/03-resources/templates/README.md`
+  - `framework/references/README.md`
+- 迁移动作：
+  - `framework/references/guide/rulebook/` -> `references/01-domain/`
+  - 删除 `framework/references/guide/reference/`
+  - 删除 `SKILL.md`
+  - 全仓改链：`guide/reference` -> `references/guide`
+- 校验结果：
+  - 无 `framework/references/guide/` 旧路径残留引用。
+  - `rulebook` 与 `references/guide` 入口均可达。
+- 风险与后续：
+  - 后续新增文档禁止在 `01-methods` 下新增参考副本，统一回写 `framework/references/`。
+
+### FW-20260310-05
+- 日期：2026-03-10
+- 状态：已生效
+- 类型：结构/治理
+- 变更摘要：项目模板迁入框架流程层，新增框架更新机制并建立变更台账。
+- 触发原因：将“项目结构规范”纳入框架主文档体系统一治理。
+- 影响文档：
+  - `references/02-process/project-structure.md`
+  - `FRAMEWORK.md`
+  - `references/02-process/stages.md`
+  - `projects/*/项目结构与流程.md`
+  - `references/04-governance/update-mechanism.md`
+  - `references/04-governance/change-log.md`
+- 迁移动作：
+  - `projects/PROJECT_TEMPLATE.md` -> `references/02-process/project-structure.md`
+  - 全仓入口改链到新路径
+- 校验结果：
+  - 项目结构入口已统一到框架层。
+- 风险与后续：
+  - 后续新增项目时需强制使用框架路径，禁止再放项目层模板副本。
+
+### FW-20260310-04
+- 日期：2026-03-10
+- 状态：已生效
+- 类型：流程/结构/治理
+- 变更摘要：`SKILL.md` 与 `workflow.md` 完全融合至 `标准创作流程.md`，并删除原文件。
+- 触发原因：消除并行流程入口，建立单一执行真源。
+- 影响文档：
+  - `references/02-process/stages.md`
+  - `FRAMEWORK.md`
+  - `framework/references/process/SKILL.md`
+- 迁移动作：
+  - 删除 `SKILL.md`
+  - 删除 `references/02-process/stages.md`
+  - 全仓改链至 `references/02-process/stages.md`
+- 校验结果：
+  - 无残留引用已删流程文件。
+- 风险与后续：
+  - 参考层保留旧镜像时需标注“非执行入口”。
+
+### FW-20260310-03
+- 日期：2026-03-10
+- 状态：已生效
+- 类型：流程
+- 变更摘要：将总指南拆分为 `playbook` 阶段分册并并入执行层。
+- 触发原因：提升阶段执行颗粒度与落地性。
+- 影响文档：
+  - `references/01-domain/*.md`
+  - `SKILL.md`
+  - `SKILL.md`
+  - `references/02-process/stages.md`
+- 迁移动作：
+  - 按阶段拆分总指南到可执行分册。
+- 校验结果：
+  - 分册存在且入口生效。
+- 风险与后续：
+  - 需持续校对阶段边界与章节映射一致性。
+
+### FW-20260310-02
+- 日期：2026-03-10
+- 状态：已生效
+- 类型：规则/流程
+- 变更摘要：`guide` 双文件结构内化（`rulebook` + `reference`），并切换为 `rulebook-first` 执行。
+- 触发原因：避免“仅引用原则”，改为可执行规范条款。
+- 影响文档：
+  - `framework/references/README.md`
+  - `references/01-domain/*.md`
+  - `framework/references/guide/*.md`
+  - `SKILL.md`
+  - `FRAMEWORK.md`
+  - `references/02-process/stages.md`
+- 迁移动作：
+  - 新增 `rulebook/` 规范分册。
+  - 保留 `reference/` 原文追溯层。
+  - 统一入口改至 `rulebook`。
+- 校验结果：
+  - 执行层文档入口一致。
+- 风险与后续：
+  - 继续清理历史镜像中的旧相对路径说明。
+
+### FW-20260310-01
+- 日期：2026-03-10
+- 状态：已生效
+- 类型：结构/流程/治理
+- 变更摘要：完成框架初始化重构与方法内核化。
+- 触发原因：将创作规范从分散文档整合为统一执行框架。
+- 影响文档：
+  - `FRAMEWORK.md`
+  - `SKILL.md`
+  - `SKILL.md`
+  - `references/02-process/stages.md`
+  - `references/03-resources/templates/README.md`
+  - `references/03-resources/checklists.md`
+  - `references/03-resources/reusable-rules.md`
+  - `references/04-governance/project-governance.md`
+- 迁移动作：
+  - 新增 `framework/` 分层结构与主文档体系。
+  - 各项目统一到 `projects/` 标准生命周期目录。
+  - 历史资料归档到 `archive/legacy/`。
+- 校验结果：
+  - 主入口可用。
+  - 项目目录与流程层对齐。
+- 风险与后续：
+  - 持续检查旧路径残留。
